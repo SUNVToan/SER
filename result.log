@@ -1,0 +1,848 @@
+ * Running on http://127.0.0.1:5000
+2024-07-22 14:14:38,150 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-07-22 14:14:47,161 - root - INFO - File uploaded: duong_angry.wav
+2024-07-22 14:14:48,162 - root - INFO - Audio loaded successfully: uploads/duong_angry.wav, Sample rate: 44100, Length: 159936
+2024-07-22 14:14:48,193 - root - INFO - MFCC extracted successfully: Shape: (39, 313)
+2024-07-22 14:14:48,196 - root - INFO - MFCC scaled successfully: Shape: (313, 39)
+2024-07-22 14:14:48,196 - root - INFO - MFCC expanded successfully: Shape: (313, 39, 1)
+2024-07-22 14:14:48,197 - root - INFO - MFCC shape: (313, 39, 1)
+2024-07-22 14:14:49,309 - root - INFO - Emotion counts: Counter({'disgust': 130, 'surprise': 81, 'angry': 50, 'happy': 30, 'sad': 15, 'fear': 6, 'neutral': 1})
+2024-07-22 14:14:49,309 - root - INFO - Emotion detected: disgust
+2024-07-22 14:14:49,310 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:14:49] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:14:55,596 - root - INFO - File uploaded: phi_disgust.wav
+2024-07-22 14:14:55,602 - root - INFO - Audio loaded successfully: uploads/phi_disgust.wav, Sample rate: 44100, Length: 201332
+2024-07-22 14:14:55,615 - root - INFO - MFCC extracted successfully: Shape: (39, 394)
+2024-07-22 14:14:55,617 - root - INFO - MFCC scaled successfully: Shape: (394, 39)
+2024-07-22 14:14:55,617 - root - INFO - MFCC expanded successfully: Shape: (394, 39, 1)
+2024-07-22 14:14:55,617 - root - INFO - MFCC shape: (394, 39, 1)
+2024-07-22 14:14:55,817 - root - INFO - Emotion counts: Counter({'disgust': 138, 'surprise': 116, 'happy': 72, 'angry': 31, 'sad': 28, 'fear': 7, 'neutral': 2})
+2024-07-22 14:14:55,817 - root - INFO - Emotion detected: disgust
+2024-07-22 14:14:55,818 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:14:55] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:15:03,356 - root - INFO - File uploaded: duong_fear.wav
+2024-07-22 14:15:03,359 - root - INFO - Audio loaded successfully: uploads/duong_fear.wav, Sample rate: 44100, Length: 154292
+2024-07-22 14:15:03,371 - root - INFO - MFCC extracted successfully: Shape: (39, 302)
+2024-07-22 14:15:03,373 - root - INFO - MFCC scaled successfully: Shape: (302, 39)
+2024-07-22 14:15:03,373 - root - INFO - MFCC expanded successfully: Shape: (302, 39, 1)
+2024-07-22 14:15:03,373 - root - INFO - MFCC shape: (302, 39, 1)
+2024-07-22 14:15:03,560 - root - INFO - Emotion counts: Counter({'surprise': 95, 'disgust': 86, 'happy': 47, 'sad': 29, 'angry': 21, 'neutral': 16, 'fear': 8})
+2024-07-22 14:15:03,560 - root - INFO - Emotion detected: surprise
+2024-07-22 14:15:03,560 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:15:03] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:15:10,454 - root - INFO - File uploaded: toan_happy_1.wav
+2024-07-22 14:15:10,455 - root - INFO - Audio loaded successfully: uploads/toan_happy_1.wav, Sample rate: 22050, Length: 202657
+2024-07-22 14:15:10,468 - root - INFO - MFCC extracted successfully: Shape: (39, 396)
+2024-07-22 14:15:10,470 - root - INFO - MFCC scaled successfully: Shape: (396, 39)
+2024-07-22 14:15:10,470 - root - INFO - MFCC expanded successfully: Shape: (396, 39, 1)
+2024-07-22 14:15:10,470 - root - INFO - MFCC shape: (396, 39, 1)
+2024-07-22 14:15:10,664 - root - INFO - Emotion counts: Counter({'happy': 152, 'disgust': 76, 'surprise': 48, 'angry': 41, 'neutral': 35, 'sad': 27, 'fear': 17})
+2024-07-22 14:15:10,664 - root - INFO - Emotion detected: happy
+2024-07-22 14:15:10,664 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:15:10] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:15:17,308 - root - INFO - File uploaded: toan_neutral_1.wav
+2024-07-22 14:15:17,308 - root - INFO - Audio loaded successfully: uploads/toan_neutral_1.wav, Sample rate: 22050, Length: 90253
+2024-07-22 14:15:17,314 - root - INFO - MFCC extracted successfully: Shape: (39, 177)
+2024-07-22 14:15:17,316 - root - INFO - MFCC scaled successfully: Shape: (177, 39)
+2024-07-22 14:15:17,316 - root - INFO - MFCC expanded successfully: Shape: (177, 39, 1)
+2024-07-22 14:15:17,316 - root - INFO - MFCC shape: (177, 39, 1)
+2024-07-22 14:15:17,510 - root - INFO - Emotion counts: Counter({'surprise': 79, 'happy': 49, 'disgust': 27, 'sad': 9, 'angry': 8, 'fear': 4, 'neutral': 1})
+2024-07-22 14:15:17,510 - root - INFO - Emotion detected: surprise
+2024-07-22 14:15:17,510 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:15:17] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:15:25,080 - root - INFO - File uploaded: toan_sad_1.wav
+2024-07-22 14:15:25,082 - root - INFO - Audio loaded successfully: uploads/toan_sad_1.wav, Sample rate: 22050, Length: 270981
+2024-07-22 14:15:25,097 - root - INFO - MFCC extracted successfully: Shape: (39, 530)
+2024-07-22 14:15:25,099 - root - INFO - MFCC scaled successfully: Shape: (530, 39)
+2024-07-22 14:15:25,099 - root - INFO - MFCC expanded successfully: Shape: (530, 39, 1)
+2024-07-22 14:15:25,099 - root - INFO - MFCC shape: (530, 39, 1)
+2024-07-22 14:15:25,309 - root - INFO - Emotion counts: Counter({'happy': 199, 'surprise': 114, 'disgust': 73, 'angry': 50, 'sad': 41, 'fear': 35, 'neutral': 18})
+2024-07-22 14:15:25,309 - root - INFO - Emotion detected: happy
+2024-07-22 14:15:25,309 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:15:25] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:15:32,327 - root - INFO - File uploaded: thoai_surprise.wav
+2024-07-22 14:15:32,330 - root - INFO - Audio loaded successfully: uploads/thoai_surprise.wav, Sample rate: 44100, Length: 147705
+2024-07-22 14:15:32,341 - root - INFO - MFCC extracted successfully: Shape: (39, 289)
+2024-07-22 14:15:32,342 - root - INFO - MFCC scaled successfully: Shape: (289, 39)
+2024-07-22 14:15:32,342 - root - INFO - MFCC expanded successfully: Shape: (289, 39, 1)
+2024-07-22 14:15:32,343 - root - INFO - MFCC shape: (289, 39, 1)
+2024-07-22 14:15:32,533 - root - INFO - Emotion counts: Counter({'surprise': 79, 'happy': 66, 'disgust': 52, 'neutral': 30, 'sad': 28, 'angry': 27, 'fear': 7})
+2024-07-22 14:15:32,533 - root - INFO - Emotion detected: surprise
+2024-07-22 14:15:32,534 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:15:32] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:17:48,951 - root - INFO - File uploaded: phi_angry.wav
+2024-07-22 14:17:48,955 - root - INFO - Audio loaded successfully: uploads/phi_angry.wav, Sample rate: 44100, Length: 187220
+2024-07-22 14:17:48,968 - root - INFO - MFCC extracted successfully: Shape: (39, 366)
+2024-07-22 14:17:48,969 - root - INFO - MFCC scaled successfully: Shape: (366, 39)
+2024-07-22 14:17:48,970 - root - INFO - MFCC expanded successfully: Shape: (366, 39, 1)
+2024-07-22 14:17:48,970 - root - INFO - MFCC shape: (366, 39, 1)
+2024-07-22 14:17:49,121 - root - INFO - Emotion counts: Counter({'surprise': 105, 'disgust': 94, 'happy': 64, 'angry': 46, 'sad': 45, 'fear': 10, 'neutral': 2})
+2024-07-22 14:17:49,121 - root - INFO - Emotion detected: surprise
+2024-07-22 14:17:49,121 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:17:49] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:18:24,758 - root - INFO - File uploaded: tam_angry.wav
+2024-07-22 14:18:24,763 - root - INFO - Audio loaded successfully: uploads/tam_angry.wav, Sample rate: 44100, Length: 191924
+2024-07-22 14:18:24,774 - root - INFO - MFCC extracted successfully: Shape: (39, 375)
+2024-07-22 14:18:24,776 - root - INFO - MFCC scaled successfully: Shape: (375, 39)
+2024-07-22 14:18:24,776 - root - INFO - MFCC expanded successfully: Shape: (375, 39, 1)
+2024-07-22 14:18:24,776 - root - INFO - MFCC shape: (375, 39, 1)
+2024-07-22 14:18:24,977 - root - INFO - Emotion counts: Counter({'surprise': 146, 'disgust': 77, 'happy': 60, 'sad': 53, 'angry': 21, 'fear': 10, 'neutral': 8})
+2024-07-22 14:18:24,977 - root - INFO - Emotion detected: surprise
+2024-07-22 14:18:24,977 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:18:24] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:18:33,820 - root - INFO - File uploaded: thoai_angry.wav
+2024-07-22 14:18:33,823 - root - INFO - Audio loaded successfully: uploads/thoai_angry.wav, Sample rate: 44100, Length: 122304
+2024-07-22 14:18:33,832 - root - INFO - MFCC extracted successfully: Shape: (39, 239)
+2024-07-22 14:18:33,833 - root - INFO - MFCC scaled successfully: Shape: (239, 39)
+2024-07-22 14:18:33,833 - root - INFO - MFCC expanded successfully: Shape: (239, 39, 1)
+2024-07-22 14:18:33,834 - root - INFO - MFCC shape: (239, 39, 1)
+2024-07-22 14:18:34,017 - root - INFO - Emotion counts: Counter({'surprise': 78, 'happy': 71, 'disgust': 35, 'sad': 22, 'fear': 16, 'angry': 11, 'neutral': 6})
+2024-07-22 14:18:34,017 - root - INFO - Emotion detected: surprise
+2024-07-22 14:18:34,017 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:18:34] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:18:42,277 - root - INFO - File uploaded: toan_angry_1.wav
+2024-07-22 14:18:42,278 - root - INFO - Audio loaded successfully: uploads/toan_angry_1.wav, Sample rate: 22050, Length: 186127
+2024-07-22 14:18:42,290 - root - INFO - MFCC extracted successfully: Shape: (39, 364)
+2024-07-22 14:18:42,291 - root - INFO - MFCC scaled successfully: Shape: (364, 39)
+2024-07-22 14:18:42,292 - root - INFO - MFCC expanded successfully: Shape: (364, 39, 1)
+2024-07-22 14:18:42,292 - root - INFO - MFCC shape: (364, 39, 1)
+2024-07-22 14:18:42,425 - root - INFO - Emotion counts: Counter({'surprise': 102, 'happy': 98, 'disgust': 87, 'angry': 29, 'neutral': 28, 'sad': 14, 'fear': 6})
+2024-07-22 14:18:42,425 - root - INFO - Emotion detected: surprise
+2024-07-22 14:18:42,425 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:18:42] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:18:48,987 - root - INFO - File uploaded: toan_angry_2.wav
+2024-07-22 14:18:48,988 - root - INFO - Audio loaded successfully: uploads/toan_angry_2.wav, Sample rate: 22050, Length: 202657
+2024-07-22 14:18:49,000 - root - INFO - MFCC extracted successfully: Shape: (39, 396)
+2024-07-22 14:18:49,001 - root - INFO - MFCC scaled successfully: Shape: (396, 39)
+2024-07-22 14:18:49,001 - root - INFO - MFCC expanded successfully: Shape: (396, 39, 1)
+2024-07-22 14:18:49,002 - root - INFO - MFCC shape: (396, 39, 1)
+2024-07-22 14:18:49,144 - root - INFO - Emotion counts: Counter({'happy': 118, 'surprise': 115, 'disgust': 75, 'sad': 33, 'neutral': 23, 'angry': 19, 'fear': 13})
+2024-07-22 14:18:49,144 - root - INFO - Emotion detected: happy
+2024-07-22 14:18:49,144 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:18:49] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:18:56,096 - root - INFO - File uploaded: toan_angry_3.wav
+2024-07-22 14:18:56,097 - root - INFO - Audio loaded successfully: uploads/toan_angry_3.wav, Sample rate: 22050, Length: 138190
+2024-07-22 14:18:56,105 - root - INFO - MFCC extracted successfully: Shape: (39, 270)
+2024-07-22 14:18:56,107 - root - INFO - MFCC scaled successfully: Shape: (270, 39)
+2024-07-22 14:18:56,107 - root - INFO - MFCC expanded successfully: Shape: (270, 39, 1)
+2024-07-22 14:18:56,107 - root - INFO - MFCC shape: (270, 39, 1)
+2024-07-22 14:18:56,251 - root - INFO - Emotion counts: Counter({'surprise': 85, 'happy': 58, 'disgust': 50, 'angry': 29, 'neutral': 29, 'sad': 11, 'fear': 8})
+2024-07-22 14:18:56,251 - root - INFO - Emotion detected: surprise
+2024-07-22 14:18:56,252 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:18:56] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:19:03,182 - root - INFO - File uploaded: toan_angry_4.wav
+2024-07-22 14:19:03,183 - root - INFO - Audio loaded successfully: uploads/toan_angry_4.wav, Sample rate: 22050, Length: 158026
+2024-07-22 14:19:03,193 - root - INFO - MFCC extracted successfully: Shape: (39, 309)
+2024-07-22 14:19:03,195 - root - INFO - MFCC scaled successfully: Shape: (309, 39)
+2024-07-22 14:19:03,195 - root - INFO - MFCC expanded successfully: Shape: (309, 39, 1)
+2024-07-22 14:19:03,195 - root - INFO - MFCC shape: (309, 39, 1)
+2024-07-22 14:19:03,391 - root - INFO - Emotion counts: Counter({'happy': 102, 'surprise': 83, 'disgust': 56, 'neutral': 30, 'angry': 16, 'sad': 11, 'fear': 11})
+2024-07-22 14:19:03,391 - root - INFO - Emotion detected: happy
+2024-07-22 14:19:03,391 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:19:03] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:19:14,022 - root - INFO - File uploaded: toan_angry_5.wav
+2024-07-22 14:19:14,023 - root - INFO - Audio loaded successfully: uploads/toan_angry_5.wav, Sample rate: 22050, Length: 209269
+2024-07-22 14:19:14,038 - root - INFO - MFCC extracted successfully: Shape: (39, 409)
+2024-07-22 14:19:14,040 - root - INFO - MFCC scaled successfully: Shape: (409, 39)
+2024-07-22 14:19:14,040 - root - INFO - MFCC expanded successfully: Shape: (409, 39, 1)
+2024-07-22 14:19:14,040 - root - INFO - MFCC shape: (409, 39, 1)
+2024-07-22 14:19:14,197 - root - INFO - Emotion counts: Counter({'happy': 137, 'surprise': 110, 'disgust': 88, 'neutral': 32, 'angry': 30, 'sad': 9, 'fear': 3})
+2024-07-22 14:19:14,197 - root - INFO - Emotion detected: happy
+2024-07-22 14:19:14,197 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:19:14] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:19:22,864 - root - INFO - File uploaded: toan_angry_6.wav
+2024-07-22 14:19:22,865 - root - INFO - Audio loaded successfully: uploads/toan_angry_6.wav, Sample rate: 22050, Length: 190535
+2024-07-22 14:19:22,878 - root - INFO - MFCC extracted successfully: Shape: (39, 373)
+2024-07-22 14:19:22,880 - root - INFO - MFCC scaled successfully: Shape: (373, 39)
+2024-07-22 14:19:22,880 - root - INFO - MFCC expanded successfully: Shape: (373, 39, 1)
+2024-07-22 14:19:22,880 - root - INFO - MFCC shape: (373, 39, 1)
+2024-07-22 14:19:23,022 - root - INFO - Emotion counts: Counter({'happy': 129, 'surprise': 99, 'disgust': 71, 'neutral': 32, 'angry': 26, 'sad': 9, 'fear': 7})
+2024-07-22 14:19:23,022 - root - INFO - Emotion detected: happy
+2024-07-22 14:19:23,022 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:19:23] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:19:31,203 - root - INFO - File uploaded: toan_angry_7.wav
+2024-07-22 14:19:31,204 - root - INFO - Audio loaded successfully: uploads/toan_angry_7.wav, Sample rate: 22050, Length: 201004
+2024-07-22 14:19:31,217 - root - INFO - MFCC extracted successfully: Shape: (39, 393)
+2024-07-22 14:19:31,218 - root - INFO - MFCC scaled successfully: Shape: (393, 39)
+2024-07-22 14:19:31,218 - root - INFO - MFCC expanded successfully: Shape: (393, 39, 1)
+2024-07-22 14:19:31,219 - root - INFO - MFCC shape: (393, 39, 1)
+2024-07-22 14:19:31,430 - root - INFO - Emotion counts: Counter({'surprise': 118, 'happy': 108, 'disgust': 90, 'angry': 31, 'neutral': 21, 'sad': 20, 'fear': 5})
+2024-07-22 14:19:31,430 - root - INFO - Emotion detected: surprise
+2024-07-22 14:19:31,430 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:19:31] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:19:39,087 - root - INFO - File uploaded: toan_angry_8.wav
+2024-07-22 14:19:39,088 - root - INFO - Audio loaded successfully: uploads/toan_angry_8.wav, Sample rate: 22050, Length: 171801
+2024-07-22 14:19:39,098 - root - INFO - MFCC extracted successfully: Shape: (39, 336)
+2024-07-22 14:19:39,100 - root - INFO - MFCC scaled successfully: Shape: (336, 39)
+2024-07-22 14:19:39,100 - root - INFO - MFCC expanded successfully: Shape: (336, 39, 1)
+2024-07-22 14:19:39,100 - root - INFO - MFCC shape: (336, 39, 1)
+2024-07-22 14:19:39,304 - root - INFO - Emotion counts: Counter({'surprise': 111, 'happy': 96, 'disgust': 65, 'neutral': 26, 'sad': 15, 'angry': 15, 'fear': 8})
+2024-07-22 14:19:39,304 - root - INFO - Emotion detected: surprise
+2024-07-22 14:19:39,304 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:19:39] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:19:45,773 - root - INFO - File uploaded: toan_angry_9.wav
+2024-07-22 14:19:45,774 - root - INFO - Audio loaded successfully: uploads/toan_angry_9.wav, Sample rate: 22050, Length: 157475
+2024-07-22 14:19:45,784 - root - INFO - MFCC extracted successfully: Shape: (39, 308)
+2024-07-22 14:19:45,786 - root - INFO - MFCC scaled successfully: Shape: (308, 39)
+2024-07-22 14:19:45,786 - root - INFO - MFCC expanded successfully: Shape: (308, 39, 1)
+2024-07-22 14:19:45,786 - root - INFO - MFCC shape: (308, 39, 1)
+2024-07-22 14:19:45,973 - root - INFO - Emotion counts: Counter({'happy': 100, 'surprise': 90, 'disgust': 61, 'neutral': 21, 'sad': 17, 'angry': 15, 'fear': 4})
+2024-07-22 14:19:45,973 - root - INFO - Emotion detected: happy
+2024-07-22 14:19:45,973 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:19:45] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:19:53,488 - root - INFO - File uploaded: toan_angry_10.wav
+2024-07-22 14:19:53,488 - root - INFO - Audio loaded successfully: uploads/toan_angry_10.wav, Sample rate: 22050, Length: 190535
+2024-07-22 14:19:53,510 - root - INFO - MFCC extracted successfully: Shape: (39, 373)
+2024-07-22 14:19:53,511 - root - INFO - MFCC scaled successfully: Shape: (373, 39)
+2024-07-22 14:19:53,511 - root - INFO - MFCC expanded successfully: Shape: (373, 39, 1)
+2024-07-22 14:19:53,511 - root - INFO - MFCC shape: (373, 39, 1)
+2024-07-22 14:19:53,687 - root - INFO - Emotion counts: Counter({'surprise': 114, 'happy': 110, 'sad': 49, 'disgust': 44, 'angry': 27, 'fear': 15, 'neutral': 14})
+2024-07-22 14:19:53,687 - root - INFO - Emotion detected: surprise
+2024-07-22 14:19:53,687 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:19:53] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:20:07,964 - root - INFO - File uploaded: duong_disgust.wav
+2024-07-22 14:20:07,968 - root - INFO - Audio loaded successfully: uploads/duong_disgust.wav, Sample rate: 44100, Length: 191924
+2024-07-22 14:20:07,981 - root - INFO - MFCC extracted successfully: Shape: (39, 375)
+2024-07-22 14:20:07,982 - root - INFO - MFCC scaled successfully: Shape: (375, 39)
+2024-07-22 14:20:07,983 - root - INFO - MFCC expanded successfully: Shape: (375, 39, 1)
+2024-07-22 14:20:07,983 - root - INFO - MFCC shape: (375, 39, 1)
+2024-07-22 14:20:08,124 - root - INFO - Emotion counts: Counter({'disgust': 113, 'happy': 69, 'angry': 52, 'surprise': 49, 'neutral': 39, 'fear': 28, 'sad': 25})
+2024-07-22 14:20:08,124 - root - INFO - Emotion detected: disgust
+2024-07-22 14:20:08,124 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:20:08] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:20:13,423 - root - INFO - File uploaded: phi_disgust.wav
+2024-07-22 14:20:13,428 - root - INFO - Audio loaded successfully: uploads/phi_disgust.wav, Sample rate: 44100, Length: 201332
+2024-07-22 14:20:13,441 - root - INFO - MFCC extracted successfully: Shape: (39, 394)
+2024-07-22 14:20:13,443 - root - INFO - MFCC scaled successfully: Shape: (394, 39)
+2024-07-22 14:20:13,443 - root - INFO - MFCC expanded successfully: Shape: (394, 39, 1)
+2024-07-22 14:20:13,443 - root - INFO - MFCC shape: (394, 39, 1)
+2024-07-22 14:20:13,595 - root - INFO - Emotion counts: Counter({'disgust': 138, 'surprise': 116, 'happy': 72, 'angry': 31, 'sad': 28, 'fear': 7, 'neutral': 2})
+2024-07-22 14:20:13,595 - root - INFO - Emotion detected: disgust
+2024-07-22 14:20:13,595 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:20:13] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:20:18,676 - root - INFO - File uploaded: tam_disgust.wav
+2024-07-22 14:20:18,685 - root - INFO - Audio loaded successfully: uploads/tam_disgust.wav, Sample rate: 44100, Length: 324576
+2024-07-22 14:20:18,702 - root - INFO - MFCC extracted successfully: Shape: (39, 634)
+2024-07-22 14:20:18,704 - root - INFO - MFCC scaled successfully: Shape: (634, 39)
+2024-07-22 14:20:18,704 - root - INFO - MFCC expanded successfully: Shape: (634, 39, 1)
+2024-07-22 14:20:18,704 - root - INFO - MFCC shape: (634, 39, 1)
+2024-07-22 14:20:18,934 - root - INFO - Emotion counts: Counter({'happy': 192, 'surprise': 155, 'disgust': 87, 'angry': 68, 'sad': 47, 'fear': 43, 'neutral': 42})
+2024-07-22 14:20:18,934 - root - INFO - Emotion detected: happy
+2024-07-22 14:20:18,935 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:20:18] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:20:25,156 - root - INFO - File uploaded: thoai_disgust.wav
+2024-07-22 14:20:25,160 - root - INFO - Audio loaded successfully: uploads/thoai_disgust.wav, Sample rate: 44100, Length: 154292
+2024-07-22 14:20:25,171 - root - INFO - MFCC extracted successfully: Shape: (39, 302)
+2024-07-22 14:20:25,173 - root - INFO - MFCC scaled successfully: Shape: (302, 39)
+2024-07-22 14:20:25,173 - root - INFO - MFCC expanded successfully: Shape: (302, 39, 1)
+2024-07-22 14:20:25,173 - root - INFO - MFCC shape: (302, 39, 1)
+2024-07-22 14:20:25,313 - root - INFO - Emotion counts: Counter({'surprise': 103, 'happy': 75, 'disgust': 74, 'angry': 19, 'sad': 18, 'fear': 12, 'neutral': 1})
+2024-07-22 14:20:25,313 - root - INFO - Emotion detected: surprise
+2024-07-22 14:20:25,313 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:20:25] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:20:31,110 - root - INFO - File uploaded: toan_disgust_bontam.wav
+2024-07-22 14:20:31,110 - root - INFO - Audio loaded successfully: uploads/toan_disgust_bontam.wav, Sample rate: 22050, Length: 45071
+2024-07-22 14:20:31,114 - root - INFO - MFCC extracted successfully: Shape: (39, 89)
+2024-07-22 14:20:31,115 - root - INFO - MFCC scaled successfully: Shape: (89, 39)
+2024-07-22 14:20:31,116 - root - INFO - MFCC expanded successfully: Shape: (89, 39, 1)
+2024-07-22 14:20:31,116 - root - INFO - MFCC shape: (89, 39, 1)
+2024-07-22 14:20:31,243 - root - INFO - Emotion counts: Counter({'happy': 31, 'angry': 24, 'surprise': 11, 'disgust': 9, 'neutral': 9, 'sad': 3, 'fear': 2})
+2024-07-22 14:20:31,243 - root - INFO - Emotion detected: happy
+2024-07-22 14:20:31,243 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:20:31] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:20:37,365 - root - INFO - File uploaded: toan_disgust_bupbe.wav
+2024-07-22 14:20:37,366 - root - INFO - Audio loaded successfully: uploads/toan_disgust_bupbe.wav, Sample rate: 22050, Length: 43969
+2024-07-22 14:20:37,370 - root - INFO - MFCC extracted successfully: Shape: (39, 86)
+2024-07-22 14:20:37,372 - root - INFO - MFCC scaled successfully: Shape: (86, 39)
+2024-07-22 14:20:37,372 - root - INFO - MFCC expanded successfully: Shape: (86, 39, 1)
+2024-07-22 14:20:37,372 - root - INFO - MFCC shape: (86, 39, 1)
+2024-07-22 14:20:37,560 - root - INFO - Emotion counts: Counter({'happy': 25, 'disgust': 19, 'surprise': 18, 'angry': 14, 'neutral': 7, 'sad': 3})
+2024-07-22 14:20:37,560 - root - INFO - Emotion detected: happy
+2024-07-22 14:20:37,560 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:20:37] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:20:46,858 - root - INFO - File uploaded: toan_disgust_cailo.wav
+2024-07-22 14:20:46,859 - root - INFO - Audio loaded successfully: uploads/toan_disgust_cailo.wav, Sample rate: 22050, Length: 46173
+2024-07-22 14:20:46,863 - root - INFO - MFCC extracted successfully: Shape: (39, 91)
+2024-07-22 14:20:46,865 - root - INFO - MFCC scaled successfully: Shape: (91, 39)
+2024-07-22 14:20:46,865 - root - INFO - MFCC expanded successfully: Shape: (91, 39, 1)
+2024-07-22 14:20:46,865 - root - INFO - MFCC shape: (91, 39, 1)
+2024-07-22 14:20:47,047 - root - INFO - Emotion counts: Counter({'surprise': 25, 'angry': 16, 'disgust': 16, 'neutral': 13, 'sad': 12, 'happy': 7, 'fear': 2})
+2024-07-22 14:20:47,047 - root - INFO - Emotion detected: surprise
+2024-07-22 14:20:47,047 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:20:47] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:21:24,219 - root - INFO - File uploaded: toan_disgust_caima.wav
+2024-07-22 14:21:24,219 - root - INFO - Audio loaded successfully: uploads/toan_disgust_caima.wav, Sample rate: 22050, Length: 46724
+2024-07-22 14:21:24,223 - root - INFO - MFCC extracted successfully: Shape: (39, 92)
+2024-07-22 14:21:24,225 - root - INFO - MFCC scaled successfully: Shape: (92, 39)
+2024-07-22 14:21:24,225 - root - INFO - MFCC expanded successfully: Shape: (92, 39, 1)
+2024-07-22 14:21:24,226 - root - INFO - MFCC shape: (92, 39, 1)
+2024-07-22 14:21:24,424 - root - INFO - Emotion counts: Counter({'surprise': 30, 'happy': 19, 'neutral': 18, 'disgust': 13, 'sad': 9, 'angry': 3})
+2024-07-22 14:21:24,424 - root - INFO - Emotion detected: surprise
+2024-07-22 14:21:24,424 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:21:24] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:21:32,370 - root - INFO - File uploaded: toan_disgust_daomuong.wav
+2024-07-22 14:21:32,370 - root - INFO - Audio loaded successfully: uploads/toan_disgust_daomuong.wav, Sample rate: 22050, Length: 50030
+2024-07-22 14:21:32,375 - root - INFO - MFCC extracted successfully: Shape: (39, 98)
+2024-07-22 14:21:32,376 - root - INFO - MFCC scaled successfully: Shape: (98, 39)
+2024-07-22 14:21:32,377 - root - INFO - MFCC expanded successfully: Shape: (98, 39, 1)
+2024-07-22 14:21:32,377 - root - INFO - MFCC shape: (98, 39, 1)
+2024-07-22 14:21:32,556 - root - INFO - Emotion counts: Counter({'surprise': 45, 'neutral': 19, 'happy': 13, 'disgust': 9, 'angry': 6, 'sad': 5, 'fear': 1})
+2024-07-22 14:21:32,556 - root - INFO - Emotion detected: surprise
+2024-07-22 14:21:32,556 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:21:32] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:21:41,658 - root - INFO - File uploaded: toan_disgust_dibo.wav
+2024-07-22 14:21:41,658 - root - INFO - Audio loaded successfully: uploads/toan_disgust_dibo.wav, Sample rate: 22050, Length: 48377
+2024-07-22 14:21:41,663 - root - INFO - MFCC extracted successfully: Shape: (39, 95)
+2024-07-22 14:21:41,664 - root - INFO - MFCC scaled successfully: Shape: (95, 39)
+2024-07-22 14:21:41,664 - root - INFO - MFCC expanded successfully: Shape: (95, 39, 1)
+2024-07-22 14:21:41,664 - root - INFO - MFCC shape: (95, 39, 1)
+2024-07-22 14:21:41,844 - root - INFO - Emotion counts: Counter({'happy': 23, 'angry': 20, 'surprise': 15, 'fear': 15, 'sad': 8, 'disgust': 7, 'neutral': 7})
+2024-07-22 14:21:41,844 - root - INFO - Emotion detected: happy
+2024-07-22 14:21:41,844 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:21:41] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:21:49,412 - root - INFO - File uploaded: toan_disgust_doan.wav
+2024-07-22 14:21:49,413 - root - INFO - Audio loaded successfully: uploads/toan_disgust_doan.wav, Sample rate: 22050, Length: 50030
+2024-07-22 14:21:49,418 - root - INFO - MFCC extracted successfully: Shape: (39, 98)
+2024-07-22 14:21:49,420 - root - INFO - MFCC scaled successfully: Shape: (98, 39)
+2024-07-22 14:21:49,420 - root - INFO - MFCC expanded successfully: Shape: (98, 39, 1)
+2024-07-22 14:21:49,420 - root - INFO - MFCC shape: (98, 39, 1)
+2024-07-22 14:21:49,541 - root - INFO - Emotion counts: Counter({'angry': 32, 'neutral': 26, 'happy': 18, 'surprise': 17, 'disgust': 5})
+2024-07-22 14:21:49,541 - root - INFO - Emotion detected: angry
+2024-07-22 14:21:49,542 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:21:49] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:22:02,682 - root - INFO - File uploaded: toan_disgust_gap.wav
+2024-07-22 14:22:02,682 - root - INFO - Audio loaded successfully: uploads/toan_disgust_gap.wav, Sample rate: 22050, Length: 36793
+2024-07-22 14:22:02,686 - root - INFO - MFCC extracted successfully: Shape: (39, 72)
+2024-07-22 14:22:02,687 - root - INFO - MFCC scaled successfully: Shape: (72, 39)
+2024-07-22 14:22:02,688 - root - INFO - MFCC expanded successfully: Shape: (72, 39, 1)
+2024-07-22 14:22:02,688 - root - INFO - MFCC shape: (72, 39, 1)
+2024-07-22 14:22:02,865 - root - INFO - Emotion counts: Counter({'happy': 33, 'surprise': 16, 'disgust': 12, 'neutral': 7, 'sad': 3, 'angry': 1})
+2024-07-22 14:22:02,865 - root - INFO - Emotion detected: happy
+2024-07-22 14:22:02,865 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:22:02] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:22:09,985 - root - INFO - File uploaded: toan_disgust_hatdau.wav
+2024-07-22 14:22:09,986 - root - INFO - Audio loaded successfully: uploads/toan_disgust_hatdau.wav, Sample rate: 22050, Length: 53887
+2024-07-22 14:22:09,990 - root - INFO - MFCC extracted successfully: Shape: (39, 106)
+2024-07-22 14:22:09,992 - root - INFO - MFCC scaled successfully: Shape: (106, 39)
+2024-07-22 14:22:09,993 - root - INFO - MFCC expanded successfully: Shape: (106, 39, 1)
+2024-07-22 14:22:09,993 - root - INFO - MFCC shape: (106, 39, 1)
+2024-07-22 14:22:10,115 - root - INFO - Emotion counts: Counter({'happy': 42, 'surprise': 18, 'disgust': 12, 'fear': 10, 'angry': 10, 'neutral': 8, 'sad': 6})
+2024-07-22 14:22:10,116 - root - INFO - Emotion detected: happy
+2024-07-22 14:22:10,116 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:22:10] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:22:29,957 - root - INFO - File uploaded: toan_disgust_khaokhat.wav
+2024-07-22 14:22:29,957 - root - INFO - Audio loaded successfully: uploads/toan_disgust_khaokhat.wav, Sample rate: 22050, Length: 41765
+2024-07-22 14:22:29,961 - root - INFO - MFCC extracted successfully: Shape: (39, 82)
+2024-07-22 14:22:29,963 - root - INFO - MFCC scaled successfully: Shape: (82, 39)
+2024-07-22 14:22:29,963 - root - INFO - MFCC expanded successfully: Shape: (82, 39, 1)
+2024-07-22 14:22:29,963 - root - INFO - MFCC shape: (82, 39, 1)
+2024-07-22 14:22:30,086 - root - INFO - Emotion counts: Counter({'happy': 20, 'angry': 19, 'surprise': 18, 'disgust': 14, 'neutral': 7, 'sad': 2, 'fear': 2})
+2024-07-22 14:22:30,086 - root - INFO - Emotion detected: happy
+2024-07-22 14:22:30,087 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:22:30] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:22:37,075 - root - INFO - File uploaded: toan_disgust_nghi.wav
+2024-07-22 14:22:37,075 - root - INFO - Audio loaded successfully: uploads/toan_disgust_nghi.wav, Sample rate: 22050, Length: 41214
+2024-07-22 14:22:37,079 - root - INFO - MFCC extracted successfully: Shape: (39, 81)
+2024-07-22 14:22:37,081 - root - INFO - MFCC scaled successfully: Shape: (81, 39)
+2024-07-22 14:22:37,081 - root - INFO - MFCC expanded successfully: Shape: (81, 39, 1)
+2024-07-22 14:22:37,081 - root - INFO - MFCC shape: (81, 39, 1)
+2024-07-22 14:22:37,207 - root - INFO - Emotion counts: Counter({'happy': 31, 'disgust': 20, 'surprise': 12, 'neutral': 8, 'angry': 8, 'sad': 2})
+2024-07-22 14:22:37,207 - root - INFO - Emotion detected: happy
+2024-07-22 14:22:37,207 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:22:37] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:22:45,563 - root - INFO - File uploaded: toan_disgust_nhavua.wav
+2024-07-22 14:22:45,563 - root - INFO - Audio loaded successfully: uploads/toan_disgust_nhavua.wav, Sample rate: 22050, Length: 41214
+2024-07-22 14:22:45,567 - root - INFO - MFCC extracted successfully: Shape: (39, 81)
+2024-07-22 14:22:45,569 - root - INFO - MFCC scaled successfully: Shape: (81, 39)
+2024-07-22 14:22:45,569 - root - INFO - MFCC expanded successfully: Shape: (81, 39, 1)
+2024-07-22 14:22:45,569 - root - INFO - MFCC shape: (81, 39, 1)
+2024-07-22 14:22:45,690 - root - INFO - Emotion counts: Counter({'happy': 29, 'disgust': 18, 'surprise': 12, 'angry': 9, 'neutral': 8, 'fear': 3, 'sad': 2})
+2024-07-22 14:22:45,690 - root - INFO - Emotion detected: happy
+2024-07-22 14:22:45,690 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:22:45] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:22:52,867 - root - INFO - File uploaded: toan_disgust_noichuyen.wav
+2024-07-22 14:22:52,868 - root - INFO - Audio loaded successfully: uploads/toan_disgust_noichuyen.wav, Sample rate: 22050, Length: 57193
+2024-07-22 14:22:52,872 - root - INFO - MFCC extracted successfully: Shape: (39, 112)
+2024-07-22 14:22:52,874 - root - INFO - MFCC scaled successfully: Shape: (112, 39)
+2024-07-22 14:22:52,874 - root - INFO - MFCC expanded successfully: Shape: (112, 39, 1)
+2024-07-22 14:22:52,874 - root - INFO - MFCC shape: (112, 39, 1)
+2024-07-22 14:22:53,001 - root - INFO - Emotion counts: Counter({'happy': 45, 'disgust': 22, 'surprise': 19, 'neutral': 17, 'angry': 9})
+2024-07-22 14:22:53,001 - root - INFO - Emotion detected: happy
+2024-07-22 14:22:53,002 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:22:53] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:23:00,021 - root - INFO - File uploaded: toan_disgust_noidau.wav
+2024-07-22 14:23:00,021 - root - INFO - Audio loaded successfully: uploads/toan_disgust_noidau.wav, Sample rate: 22050, Length: 46173
+2024-07-22 14:23:00,026 - root - INFO - MFCC extracted successfully: Shape: (39, 91)
+2024-07-22 14:23:00,028 - root - INFO - MFCC scaled successfully: Shape: (91, 39)
+2024-07-22 14:23:00,028 - root - INFO - MFCC expanded successfully: Shape: (91, 39, 1)
+2024-07-22 14:23:00,028 - root - INFO - MFCC shape: (91, 39, 1)
+2024-07-22 14:23:00,146 - root - INFO - Emotion counts: Counter({'disgust': 21, 'angry': 18, 'surprise': 17, 'neutral': 15, 'happy': 14, 'fear': 4, 'sad': 2})
+2024-07-22 14:23:00,146 - root - INFO - Emotion detected: disgust
+2024-07-22 14:23:00,147 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:23:00] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:23:10,563 - root - INFO - File uploaded: toan_disgust_sanh.wav
+2024-07-22 14:23:10,563 - root - INFO - Audio loaded successfully: uploads/toan_disgust_sanh.wav, Sample rate: 22050, Length: 41214
+2024-07-22 14:23:10,567 - root - INFO - MFCC extracted successfully: Shape: (39, 81)
+2024-07-22 14:23:10,569 - root - INFO - MFCC scaled successfully: Shape: (81, 39)
+2024-07-22 14:23:10,569 - root - INFO - MFCC expanded successfully: Shape: (81, 39, 1)
+2024-07-22 14:23:10,569 - root - INFO - MFCC shape: (81, 39, 1)
+2024-07-22 14:23:10,687 - root - INFO - Emotion counts: Counter({'happy': 23, 'neutral': 19, 'surprise': 15, 'disgust': 11, 'angry': 11, 'sad': 2})
+2024-07-22 14:23:10,687 - root - INFO - Emotion detected: happy
+2024-07-22 14:23:10,687 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:23:10] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:23:17,638 - root - INFO - File uploaded: toan_disgust_song.wav
+2024-07-22 14:23:17,639 - root - INFO - Audio loaded successfully: uploads/toan_disgust_song.wav, Sample rate: 22050, Length: 42867
+2024-07-22 14:23:17,643 - root - INFO - MFCC extracted successfully: Shape: (39, 84)
+2024-07-22 14:23:17,644 - root - INFO - MFCC scaled successfully: Shape: (84, 39)
+2024-07-22 14:23:17,645 - root - INFO - MFCC expanded successfully: Shape: (84, 39, 1)
+2024-07-22 14:23:17,645 - root - INFO - MFCC shape: (84, 39, 1)
+2024-07-22 14:23:17,771 - root - INFO - Emotion counts: Counter({'disgust': 15, 'neutral': 15, 'happy': 14, 'sad': 14, 'surprise': 13, 'angry': 13})
+2024-07-22 14:23:17,772 - root - INFO - Emotion detected: disgust
+2024-07-22 14:23:17,772 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:23:17] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:23:25,136 - root - INFO - File uploaded: toan_disgust_tapgiay.wav
+2024-07-22 14:23:25,137 - root - INFO - Audio loaded successfully: uploads/toan_disgust_tapgiay.wav, Sample rate: 22050, Length: 48377
+2024-07-22 14:23:25,153 - root - INFO - MFCC extracted successfully: Shape: (39, 95)
+2024-07-22 14:23:25,155 - root - INFO - MFCC scaled successfully: Shape: (95, 39)
+2024-07-22 14:23:25,155 - root - INFO - MFCC expanded successfully: Shape: (95, 39, 1)
+2024-07-22 14:23:25,155 - root - INFO - MFCC shape: (95, 39, 1)
+2024-07-22 14:23:25,322 - root - INFO - Emotion counts: Counter({'happy': 40, 'surprise': 15, 'angry': 13, 'disgust': 12, 'neutral': 9, 'fear': 5, 'sad': 1})
+2024-07-22 14:23:25,323 - root - INFO - Emotion detected: happy
+2024-07-22 14:23:25,323 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:23:25] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:23:33,654 - root - INFO - File uploaded: toan_disgust_taxi.wav
+2024-07-22 14:23:33,655 - root - INFO - Audio loaded successfully: uploads/toan_disgust_taxi.wav, Sample rate: 22050, Length: 52234
+2024-07-22 14:23:33,659 - root - INFO - MFCC extracted successfully: Shape: (39, 103)
+2024-07-22 14:23:33,661 - root - INFO - MFCC scaled successfully: Shape: (103, 39)
+2024-07-22 14:23:33,661 - root - INFO - MFCC expanded successfully: Shape: (103, 39, 1)
+2024-07-22 14:23:33,661 - root - INFO - MFCC shape: (103, 39, 1)
+2024-07-22 14:23:33,835 - root - INFO - Emotion counts: Counter({'happy': 31, 'surprise': 25, 'angry': 21, 'disgust': 9, 'neutral': 9, 'sad': 5, 'fear': 3})
+2024-07-22 14:23:33,836 - root - INFO - Emotion detected: happy
+2024-07-22 14:23:33,836 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:23:33] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:23:39,884 - root - INFO - File uploaded: toan_disgust_thamgia.wav
+2024-07-22 14:23:39,884 - root - INFO - Audio loaded successfully: uploads/toan_disgust_thamgia.wav, Sample rate: 22050, Length: 45071
+2024-07-22 14:23:39,888 - root - INFO - MFCC extracted successfully: Shape: (39, 89)
+2024-07-22 14:23:39,890 - root - INFO - MFCC scaled successfully: Shape: (89, 39)
+2024-07-22 14:23:39,890 - root - INFO - MFCC expanded successfully: Shape: (89, 39, 1)
+2024-07-22 14:23:39,890 - root - INFO - MFCC shape: (89, 39, 1)
+2024-07-22 14:23:40,019 - root - INFO - Emotion counts: Counter({'disgust': 25, 'surprise': 21, 'sad': 17, 'happy': 11, 'neutral': 5, 'angry': 5, 'fear': 5})
+2024-07-22 14:23:40,019 - root - INFO - Emotion detected: disgust
+2024-07-22 14:23:40,020 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:23:40] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:23:47,350 - root - INFO - File uploaded: toan_disgust_thatbai.wav
+2024-07-22 14:23:47,350 - root - INFO - Audio loaded successfully: uploads/toan_disgust_thatbai.wav, Sample rate: 22050, Length: 46724
+2024-07-22 14:23:47,355 - root - INFO - MFCC extracted successfully: Shape: (39, 92)
+2024-07-22 14:23:47,356 - root - INFO - MFCC scaled successfully: Shape: (92, 39)
+2024-07-22 14:23:47,357 - root - INFO - MFCC expanded successfully: Shape: (92, 39, 1)
+2024-07-22 14:23:47,357 - root - INFO - MFCC shape: (92, 39, 1)
+2024-07-22 14:23:47,482 - root - INFO - Emotion counts: Counter({'happy': 24, 'surprise': 22, 'sad': 17, 'neutral': 10, 'disgust': 7, 'angry': 7, 'fear': 5})
+2024-07-22 14:23:47,482 - root - INFO - Emotion detected: happy
+2024-07-22 14:23:47,482 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:23:47] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:23:53,535 - root - INFO - File uploaded: duong_fear.wav
+2024-07-22 14:23:53,539 - root - INFO - Audio loaded successfully: uploads/duong_fear.wav, Sample rate: 44100, Length: 154292
+2024-07-22 14:23:53,551 - root - INFO - MFCC extracted successfully: Shape: (39, 302)
+2024-07-22 14:23:53,553 - root - INFO - MFCC scaled successfully: Shape: (302, 39)
+2024-07-22 14:23:53,553 - root - INFO - MFCC expanded successfully: Shape: (302, 39, 1)
+2024-07-22 14:23:53,553 - root - INFO - MFCC shape: (302, 39, 1)
+2024-07-22 14:23:53,694 - root - INFO - Emotion counts: Counter({'surprise': 95, 'disgust': 86, 'happy': 47, 'sad': 29, 'angry': 21, 'neutral': 16, 'fear': 8})
+2024-07-22 14:23:53,694 - root - INFO - Emotion detected: surprise
+2024-07-22 14:23:53,695 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:23:53] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:23:59,631 - root - INFO - File uploaded: phi_fear.wav
+2024-07-22 14:23:59,636 - root - INFO - Audio loaded successfully: uploads/phi_fear.wav, Sample rate: 44100, Length: 213561
+2024-07-22 14:23:59,651 - root - INFO - MFCC extracted successfully: Shape: (39, 418)
+2024-07-22 14:23:59,653 - root - INFO - MFCC scaled successfully: Shape: (418, 39)
+2024-07-22 14:23:59,653 - root - INFO - MFCC expanded successfully: Shape: (418, 39, 1)
+2024-07-22 14:23:59,653 - root - INFO - MFCC shape: (418, 39, 1)
+2024-07-22 14:23:59,838 - root - INFO - Emotion counts: Counter({'disgust': 130, 'surprise': 94, 'happy': 79, 'angry': 46, 'sad': 32, 'neutral': 23, 'fear': 14})
+2024-07-22 14:23:59,838 - root - INFO - Emotion detected: disgust
+2024-07-22 14:23:59,839 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:23:59] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:24:06,526 - root - INFO - File uploaded: tam_fear.wav
+2024-07-22 14:24:06,532 - root - INFO - Audio loaded successfully: uploads/tam_fear.wav, Sample rate: 44100, Length: 266247
+2024-07-22 14:24:06,550 - root - INFO - MFCC extracted successfully: Shape: (39, 521)
+2024-07-22 14:24:06,552 - root - INFO - MFCC scaled successfully: Shape: (521, 39)
+2024-07-22 14:24:06,552 - root - INFO - MFCC expanded successfully: Shape: (521, 39, 1)
+2024-07-22 14:24:06,552 - root - INFO - MFCC shape: (521, 39, 1)
+2024-07-22 14:24:06,709 - root - INFO - Emotion counts: Counter({'surprise': 126, 'happy': 116, 'disgust': 76, 'sad': 61, 'angry': 59, 'fear': 54, 'neutral': 29})
+2024-07-22 14:24:06,709 - root - INFO - Emotion detected: surprise
+2024-07-22 14:24:06,710 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:24:06] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:24:11,909 - root - INFO - File uploaded: thoai_fear.wav
+2024-07-22 14:24:11,912 - root - INFO - Audio loaded successfully: uploads/thoai_fear.wav, Sample rate: 44100, Length: 137357
+2024-07-22 14:24:11,921 - root - INFO - MFCC extracted successfully: Shape: (39, 269)
+2024-07-22 14:24:11,923 - root - INFO - MFCC scaled successfully: Shape: (269, 39)
+2024-07-22 14:24:11,923 - root - INFO - MFCC expanded successfully: Shape: (269, 39, 1)
+2024-07-22 14:24:11,923 - root - INFO - MFCC shape: (269, 39, 1)
+2024-07-22 14:24:12,119 - root - INFO - Emotion counts: Counter({'disgust': 77, 'happy': 69, 'surprise': 57, 'fear': 26, 'angry': 20, 'sad': 17, 'neutral': 3})
+2024-07-22 14:24:12,119 - root - INFO - Emotion detected: disgust
+2024-07-22 14:24:12,120 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:24:12] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:24:17,708 - root - INFO - File uploaded: duong_happy.wav
+2024-07-22 14:24:17,713 - root - INFO - Audio loaded successfully: uploads/duong_happy.wav, Sample rate: 44100, Length: 212621
+2024-07-22 14:24:17,725 - root - INFO - MFCC extracted successfully: Shape: (39, 416)
+2024-07-22 14:24:17,727 - root - INFO - MFCC scaled successfully: Shape: (416, 39)
+2024-07-22 14:24:17,727 - root - INFO - MFCC expanded successfully: Shape: (416, 39, 1)
+2024-07-22 14:24:17,727 - root - INFO - MFCC shape: (416, 39, 1)
+2024-07-22 14:24:17,870 - root - INFO - Emotion counts: Counter({'surprise': 123, 'happy': 95, 'disgust': 86, 'angry': 48, 'sad': 30, 'fear': 19, 'neutral': 15})
+2024-07-22 14:24:17,870 - root - INFO - Emotion detected: surprise
+2024-07-22 14:24:17,870 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:24:17] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:24:23,171 - root - INFO - File uploaded: phi_happy.wav
+2024-07-22 14:24:23,176 - root - INFO - Audio loaded successfully: uploads/phi_happy.wav, Sample rate: 44100, Length: 223911
+2024-07-22 14:24:23,189 - root - INFO - MFCC extracted successfully: Shape: (39, 438)
+2024-07-22 14:24:23,191 - root - INFO - MFCC scaled successfully: Shape: (438, 39)
+2024-07-22 14:24:23,191 - root - INFO - MFCC expanded successfully: Shape: (438, 39, 1)
+2024-07-22 14:24:23,191 - root - INFO - MFCC shape: (438, 39, 1)
+2024-07-22 14:24:23,340 - root - INFO - Emotion counts: Counter({'disgust': 134, 'surprise': 94, 'happy': 67, 'angry': 44, 'sad': 39, 'neutral': 35, 'fear': 25})
+2024-07-22 14:24:23,340 - root - INFO - Emotion detected: disgust
+2024-07-22 14:24:23,340 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:24:23] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:24:31,342 - root - INFO - File uploaded: tam_happy.wav
+2024-07-22 14:24:31,348 - root - INFO - Audio loaded successfully: uploads/tam_happy.wav, Sample rate: 44100, Length: 259661
+2024-07-22 14:24:31,365 - root - INFO - MFCC extracted successfully: Shape: (39, 508)
+2024-07-22 14:24:31,367 - root - INFO - MFCC scaled successfully: Shape: (508, 39)
+2024-07-22 14:24:31,367 - root - INFO - MFCC expanded successfully: Shape: (508, 39, 1)
+2024-07-22 14:24:31,367 - root - INFO - MFCC shape: (508, 39, 1)
+2024-07-22 14:24:31,523 - root - INFO - Emotion counts: Counter({'angry': 96, 'fear': 94, 'surprise': 87, 'happy': 70, 'disgust': 67, 'sad': 54, 'neutral': 40})
+2024-07-22 14:24:31,524 - root - INFO - Emotion detected: angry
+2024-07-22 14:24:31,524 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:24:31] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:24:43,282 - root - INFO - File uploaded: thoai_happy.wav
+2024-07-22 14:24:43,286 - root - INFO - Audio loaded successfully: uploads/thoai_happy.wav, Sample rate: 44100, Length: 170285
+2024-07-22 14:24:43,297 - root - INFO - MFCC extracted successfully: Shape: (39, 333)
+2024-07-22 14:24:43,299 - root - INFO - MFCC scaled successfully: Shape: (333, 39)
+2024-07-22 14:24:43,299 - root - INFO - MFCC expanded successfully: Shape: (333, 39, 1)
+2024-07-22 14:24:43,299 - root - INFO - MFCC shape: (333, 39, 1)
+2024-07-22 14:24:43,442 - root - INFO - Emotion counts: Counter({'surprise': 90, 'happy': 88, 'sad': 44, 'disgust': 42, 'neutral': 26, 'fear': 24, 'angry': 19})
+2024-07-22 14:24:43,442 - root - INFO - Emotion detected: surprise
+2024-07-22 14:24:43,443 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:24:43] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:24:51,369 - root - INFO - File uploaded: toan_happy_1.wav
+2024-07-22 14:24:51,370 - root - INFO - Audio loaded successfully: uploads/toan_happy_1.wav, Sample rate: 22050, Length: 202657
+2024-07-22 14:24:51,383 - root - INFO - MFCC extracted successfully: Shape: (39, 396)
+2024-07-22 14:24:51,385 - root - INFO - MFCC scaled successfully: Shape: (396, 39)
+2024-07-22 14:24:51,385 - root - INFO - MFCC expanded successfully: Shape: (396, 39, 1)
+2024-07-22 14:24:51,385 - root - INFO - MFCC shape: (396, 39, 1)
+2024-07-22 14:24:51,570 - root - INFO - Emotion counts: Counter({'happy': 152, 'disgust': 76, 'surprise': 48, 'angry': 41, 'neutral': 35, 'sad': 27, 'fear': 17})
+2024-07-22 14:24:51,570 - root - INFO - Emotion detected: happy
+2024-07-22 14:24:51,571 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:24:51] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:24:58,180 - root - INFO - File uploaded: toan_happy_2.wav
+2024-07-22 14:24:58,181 - root - INFO - Audio loaded successfully: uploads/toan_happy_2.wav, Sample rate: 22050, Length: 241778
+2024-07-22 14:24:58,197 - root - INFO - MFCC extracted successfully: Shape: (39, 473)
+2024-07-22 14:24:58,199 - root - INFO - MFCC scaled successfully: Shape: (473, 39)
+2024-07-22 14:24:58,199 - root - INFO - MFCC expanded successfully: Shape: (473, 39, 1)
+2024-07-22 14:24:58,199 - root - INFO - MFCC shape: (473, 39, 1)
+2024-07-22 14:24:58,357 - root - INFO - Emotion counts: Counter({'happy': 152, 'surprise': 99, 'disgust': 70, 'sad': 48, 'angry': 46, 'fear': 38, 'neutral': 20})
+2024-07-22 14:24:58,357 - root - INFO - Emotion detected: happy
+2024-07-22 14:24:58,358 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:24:58] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:25:04,623 - root - INFO - File uploaded: toan_happy_3.wav
+2024-07-22 14:25:04,625 - root - INFO - Audio loaded successfully: uploads/toan_happy_3.wav, Sample rate: 22050, Length: 228003
+2024-07-22 14:25:04,638 - root - INFO - MFCC extracted successfully: Shape: (39, 446)
+2024-07-22 14:25:04,639 - root - INFO - MFCC scaled successfully: Shape: (446, 39)
+2024-07-22 14:25:04,640 - root - INFO - MFCC expanded successfully: Shape: (446, 39, 1)
+2024-07-22 14:25:04,640 - root - INFO - MFCC shape: (446, 39, 1)
+2024-07-22 14:25:04,852 - root - INFO - Emotion counts: Counter({'happy': 151, 'disgust': 82, 'surprise': 80, 'angry': 60, 'sad': 26, 'neutral': 25, 'fear': 22})
+2024-07-22 14:25:04,852 - root - INFO - Emotion detected: happy
+2024-07-22 14:25:04,852 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:25:04] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:25:12,134 - root - INFO - File uploaded: toan_happy_4.wav
+2024-07-22 14:25:12,135 - root - INFO - Audio loaded successfully: uploads/toan_happy_4.wav, Sample rate: 22050, Length: 259961
+2024-07-22 14:25:12,149 - root - INFO - MFCC extracted successfully: Shape: (39, 508)
+2024-07-22 14:25:12,151 - root - INFO - MFCC scaled successfully: Shape: (508, 39)
+2024-07-22 14:25:12,151 - root - INFO - MFCC expanded successfully: Shape: (508, 39, 1)
+2024-07-22 14:25:12,151 - root - INFO - MFCC shape: (508, 39, 1)
+2024-07-22 14:25:12,310 - root - INFO - Emotion counts: Counter({'happy': 151, 'surprise': 119, 'disgust': 79, 'angry': 49, 'sad': 47, 'fear': 37, 'neutral': 26})
+2024-07-22 14:25:12,310 - root - INFO - Emotion detected: happy
+2024-07-22 14:25:12,311 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:25:12] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:25:19,922 - root - INFO - File uploaded: toan_happy_5.wav
+2024-07-22 14:25:19,923 - root - INFO - Audio loaded successfully: uploads/toan_happy_5.wav, Sample rate: 22050, Length: 286960
+2024-07-22 14:25:19,938 - root - INFO - MFCC extracted successfully: Shape: (39, 561)
+2024-07-22 14:25:19,940 - root - INFO - MFCC scaled successfully: Shape: (561, 39)
+2024-07-22 14:25:19,940 - root - INFO - MFCC expanded successfully: Shape: (561, 39, 1)
+2024-07-22 14:25:19,940 - root - INFO - MFCC shape: (561, 39, 1)
+2024-07-22 14:25:20,105 - root - INFO - Emotion counts: Counter({'happy': 188, 'disgust': 105, 'surprise': 87, 'angry': 57, 'neutral': 51, 'sad': 37, 'fear': 36})
+2024-07-22 14:25:20,105 - root - INFO - Emotion detected: happy
+2024-07-22 14:25:20,106 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:25:20] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:25:28,362 - root - INFO - File uploaded: toan_happy_6.wav
+2024-07-22 14:25:28,363 - root - INFO - Audio loaded successfully: uploads/toan_happy_6.wav, Sample rate: 22050, Length: 260512
+2024-07-22 14:25:28,378 - root - INFO - MFCC extracted successfully: Shape: (39, 509)
+2024-07-22 14:25:28,380 - root - INFO - MFCC scaled successfully: Shape: (509, 39)
+2024-07-22 14:25:28,380 - root - INFO - MFCC expanded successfully: Shape: (509, 39, 1)
+2024-07-22 14:25:28,380 - root - INFO - MFCC shape: (509, 39, 1)
+2024-07-22 14:25:28,612 - root - INFO - Emotion counts: Counter({'happy': 168, 'surprise': 96, 'disgust': 86, 'sad': 68, 'angry': 48, 'neutral': 24, 'fear': 19})
+2024-07-22 14:25:28,612 - root - INFO - Emotion detected: happy
+2024-07-22 14:25:28,612 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:25:28] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:25:36,738 - root - INFO - File uploaded: toan_happy_7.wav
+2024-07-22 14:25:36,740 - root - INFO - Audio loaded successfully: uploads/toan_happy_7.wav, Sample rate: 22050, Length: 319469
+2024-07-22 14:25:36,758 - root - INFO - MFCC extracted successfully: Shape: (39, 624)
+2024-07-22 14:25:36,760 - root - INFO - MFCC scaled successfully: Shape: (624, 39)
+2024-07-22 14:25:36,760 - root - INFO - MFCC expanded successfully: Shape: (624, 39, 1)
+2024-07-22 14:25:36,760 - root - INFO - MFCC shape: (624, 39, 1)
+2024-07-22 14:25:36,924 - root - INFO - Emotion counts: Counter({'happy': 173, 'surprise': 129, 'disgust': 108, 'angry': 73, 'fear': 53, 'sad': 50, 'neutral': 38})
+2024-07-22 14:25:36,924 - root - INFO - Emotion detected: happy
+2024-07-22 14:25:36,924 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:25:36] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:25:44,578 - root - INFO - File uploaded: toan_happy_8.wav
+2024-07-22 14:25:44,579 - root - INFO - Audio loaded successfully: uploads/toan_happy_8.wav, Sample rate: 22050, Length: 301286
+2024-07-22 14:25:44,595 - root - INFO - MFCC extracted successfully: Shape: (39, 589)
+2024-07-22 14:25:44,597 - root - INFO - MFCC scaled successfully: Shape: (589, 39)
+2024-07-22 14:25:44,597 - root - INFO - MFCC expanded successfully: Shape: (589, 39, 1)
+2024-07-22 14:25:44,597 - root - INFO - MFCC shape: (589, 39, 1)
+2024-07-22 14:25:44,767 - root - INFO - Emotion counts: Counter({'happy': 205, 'disgust': 111, 'surprise': 98, 'angry': 70, 'sad': 47, 'neutral': 40, 'fear': 18})
+2024-07-22 14:25:44,767 - root - INFO - Emotion detected: happy
+2024-07-22 14:25:44,767 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:25:44] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:25:53,325 - root - INFO - File uploaded: toan_happy_9.wav
+2024-07-22 14:25:53,326 - root - INFO - Audio loaded successfully: uploads/toan_happy_9.wav, Sample rate: 22050, Length: 264920
+2024-07-22 14:25:53,341 - root - INFO - MFCC extracted successfully: Shape: (39, 518)
+2024-07-22 14:25:53,343 - root - INFO - MFCC scaled successfully: Shape: (518, 39)
+2024-07-22 14:25:53,343 - root - INFO - MFCC expanded successfully: Shape: (518, 39, 1)
+2024-07-22 14:25:53,343 - root - INFO - MFCC shape: (518, 39, 1)
+2024-07-22 14:25:53,558 - root - INFO - Emotion counts: Counter({'happy': 188, 'disgust': 109, 'surprise': 100, 'neutral': 43, 'angry': 38, 'sad': 21, 'fear': 19})
+2024-07-22 14:25:53,558 - root - INFO - Emotion detected: happy
+2024-07-22 14:25:53,558 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:25:53] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:26:01,473 - root - INFO - File uploaded: toan_happy_10.wav
+2024-07-22 14:26:01,475 - root - INFO - Audio loaded successfully: uploads/toan_happy_10.wav, Sample rate: 22050, Length: 307898
+2024-07-22 14:26:01,490 - root - INFO - MFCC extracted successfully: Shape: (39, 602)
+2024-07-22 14:26:01,492 - root - INFO - MFCC scaled successfully: Shape: (602, 39)
+2024-07-22 14:26:01,492 - root - INFO - MFCC expanded successfully: Shape: (602, 39, 1)
+2024-07-22 14:26:01,493 - root - INFO - MFCC shape: (602, 39, 1)
+2024-07-22 14:26:01,650 - root - INFO - Emotion counts: Counter({'happy': 242, 'disgust': 112, 'surprise': 104, 'neutral': 57, 'angry': 46, 'fear': 27, 'sad': 14})
+2024-07-22 14:26:01,650 - root - INFO - Emotion detected: happy
+2024-07-22 14:26:01,650 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:26:01] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:26:16,330 - root - INFO - File uploaded: duong_neutral.wav
+2024-07-22 14:26:16,334 - root - INFO - Audio loaded successfully: uploads/duong_neutral.wav, Sample rate: 44100, Length: 193805
+2024-07-22 14:26:16,346 - root - INFO - MFCC extracted successfully: Shape: (39, 379)
+2024-07-22 14:26:16,348 - root - INFO - MFCC scaled successfully: Shape: (379, 39)
+2024-07-22 14:26:16,348 - root - INFO - MFCC expanded successfully: Shape: (379, 39, 1)
+2024-07-22 14:26:16,348 - root - INFO - MFCC shape: (379, 39, 1)
+2024-07-22 14:26:16,492 - root - INFO - Emotion counts: Counter({'surprise': 108, 'sad': 100, 'happy': 73, 'disgust': 55, 'angry': 23, 'fear': 16, 'neutral': 4})
+2024-07-22 14:26:16,492 - root - INFO - Emotion detected: surprise
+2024-07-22 14:26:16,492 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:26:16] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:26:25,435 - root - INFO - File uploaded: phi_neutral.wav
+2024-07-22 14:26:25,441 - root - INFO - Audio loaded successfully: uploads/phi_neutral.wav, Sample rate: 44100, Length: 222969
+2024-07-22 14:26:25,454 - root - INFO - MFCC extracted successfully: Shape: (39, 436)
+2024-07-22 14:26:25,455 - root - INFO - MFCC scaled successfully: Shape: (436, 39)
+2024-07-22 14:26:25,456 - root - INFO - MFCC expanded successfully: Shape: (436, 39, 1)
+2024-07-22 14:26:25,456 - root - INFO - MFCC shape: (436, 39, 1)
+2024-07-22 14:26:25,598 - root - INFO - Emotion counts: Counter({'surprise': 124, 'sad': 98, 'disgust': 64, 'happy': 58, 'angry': 50, 'fear': 34, 'neutral': 8})
+2024-07-22 14:26:25,598 - root - INFO - Emotion detected: surprise
+2024-07-22 14:26:25,598 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:26:25] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:26:31,760 - root - INFO - File uploaded: tam_neutral.wav
+2024-07-22 14:26:31,771 - root - INFO - Audio loaded successfully: uploads/tam_neutral.wav, Sample rate: 44100, Length: 473223
+2024-07-22 14:26:31,797 - root - INFO - MFCC extracted successfully: Shape: (39, 925)
+2024-07-22 14:26:31,799 - root - INFO - MFCC scaled successfully: Shape: (925, 39)
+2024-07-22 14:26:31,800 - root - INFO - MFCC expanded successfully: Shape: (925, 39, 1)
+2024-07-22 14:26:31,800 - root - INFO - MFCC shape: (925, 39, 1)
+2024-07-22 14:26:31,985 - root - INFO - Emotion counts: Counter({'surprise': 264, 'happy': 184, 'sad': 152, 'disgust': 128, 'fear': 79, 'angry': 75, 'neutral': 43})
+2024-07-22 14:26:31,985 - root - INFO - Emotion detected: surprise
+2024-07-22 14:26:31,986 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:26:31] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:26:37,666 - root - INFO - File uploaded: thoai_neutral.wav
+2024-07-22 14:26:37,669 - root - INFO - Audio loaded successfully: uploads/thoai_neutral.wav, Sample rate: 44100, Length: 126068
+2024-07-22 14:26:37,678 - root - INFO - MFCC extracted successfully: Shape: (39, 247)
+2024-07-22 14:26:37,680 - root - INFO - MFCC scaled successfully: Shape: (247, 39)
+2024-07-22 14:26:37,680 - root - INFO - MFCC expanded successfully: Shape: (247, 39, 1)
+2024-07-22 14:26:37,680 - root - INFO - MFCC shape: (247, 39, 1)
+2024-07-22 14:26:37,815 - root - INFO - Emotion counts: Counter({'happy': 69, 'surprise': 58, 'disgust': 44, 'sad': 32, 'fear': 23, 'angry': 18, 'neutral': 3})
+2024-07-22 14:26:37,815 - root - INFO - Emotion detected: happy
+2024-07-22 14:26:37,815 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:26:37] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:26:44,006 - root - INFO - File uploaded: toan_neutral_1.wav
+2024-07-22 14:26:44,006 - root - INFO - Audio loaded successfully: uploads/toan_neutral_1.wav, Sample rate: 22050, Length: 90253
+2024-07-22 14:26:44,012 - root - INFO - MFCC extracted successfully: Shape: (39, 177)
+2024-07-22 14:26:44,014 - root - INFO - MFCC scaled successfully: Shape: (177, 39)
+2024-07-22 14:26:44,014 - root - INFO - MFCC expanded successfully: Shape: (177, 39, 1)
+2024-07-22 14:26:44,014 - root - INFO - MFCC shape: (177, 39, 1)
+2024-07-22 14:26:44,138 - root - INFO - Emotion counts: Counter({'surprise': 79, 'happy': 49, 'disgust': 27, 'sad': 9, 'angry': 8, 'fear': 4, 'neutral': 1})
+2024-07-22 14:26:44,138 - root - INFO - Emotion detected: surprise
+2024-07-22 14:26:44,138 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:26:44] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:26:51,130 - root - INFO - File uploaded: toan_neutral_2.wav
+2024-07-22 14:26:51,131 - root - INFO - Audio loaded successfully: uploads/toan_neutral_2.wav, Sample rate: 22050, Length: 98518
+2024-07-22 14:26:51,138 - root - INFO - MFCC extracted successfully: Shape: (39, 193)
+2024-07-22 14:26:51,140 - root - INFO - MFCC scaled successfully: Shape: (193, 39)
+2024-07-22 14:26:51,140 - root - INFO - MFCC expanded successfully: Shape: (193, 39, 1)
+2024-07-22 14:26:51,140 - root - INFO - MFCC shape: (193, 39, 1)
+2024-07-22 14:26:51,277 - root - INFO - Emotion counts: Counter({'surprise': 87, 'happy': 45, 'disgust': 35, 'angry': 15, 'sad': 9, 'fear': 2})
+2024-07-22 14:26:51,278 - root - INFO - Emotion detected: surprise
+2024-07-22 14:26:51,278 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:26:51] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:27:05,125 - root - INFO - File uploaded: toan_neutral_3.wav
+2024-07-22 14:27:05,126 - root - INFO - Audio loaded successfully: uploads/toan_neutral_3.wav, Sample rate: 22050, Length: 96865
+2024-07-22 14:27:05,133 - root - INFO - MFCC extracted successfully: Shape: (39, 190)
+2024-07-22 14:27:05,134 - root - INFO - MFCC scaled successfully: Shape: (190, 39)
+2024-07-22 14:27:05,134 - root - INFO - MFCC expanded successfully: Shape: (190, 39, 1)
+2024-07-22 14:27:05,134 - root - INFO - MFCC shape: (190, 39, 1)
+2024-07-22 14:27:05,268 - root - INFO - Emotion counts: Counter({'surprise': 88, 'disgust': 43, 'happy': 33, 'neutral': 8, 'fear': 7, 'angry': 6, 'sad': 5})
+2024-07-22 14:27:05,268 - root - INFO - Emotion detected: surprise
+2024-07-22 14:27:05,268 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:27:05] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:27:14,771 - root - INFO - File uploaded: toan_neutral_4.wav
+2024-07-22 14:27:14,771 - root - INFO - Audio loaded successfully: uploads/toan_neutral_4.wav, Sample rate: 22050, Length: 66009
+2024-07-22 14:27:14,776 - root - INFO - MFCC extracted successfully: Shape: (39, 129)
+2024-07-22 14:27:14,778 - root - INFO - MFCC scaled successfully: Shape: (129, 39)
+2024-07-22 14:27:14,778 - root - INFO - MFCC expanded successfully: Shape: (129, 39, 1)
+2024-07-22 14:27:14,779 - root - INFO - MFCC shape: (129, 39, 1)
+2024-07-22 14:27:14,918 - root - INFO - Emotion counts: Counter({'surprise': 55, 'happy': 33, 'disgust': 26, 'sad': 11, 'angry': 3, 'fear': 1})
+2024-07-22 14:27:14,918 - root - INFO - Emotion detected: surprise
+2024-07-22 14:27:14,919 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:27:14] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:27:25,281 - root - INFO - File uploaded: toan_neutral_5.wav
+2024-07-22 14:27:25,282 - root - INFO - Audio loaded successfully: uploads/toan_neutral_5.wav, Sample rate: 22050, Length: 42316
+2024-07-22 14:27:25,286 - root - INFO - MFCC extracted successfully: Shape: (39, 83)
+2024-07-22 14:27:25,288 - root - INFO - MFCC scaled successfully: Shape: (83, 39)
+2024-07-22 14:27:25,288 - root - INFO - MFCC expanded successfully: Shape: (83, 39, 1)
+2024-07-22 14:27:25,288 - root - INFO - MFCC shape: (83, 39, 1)
+2024-07-22 14:27:25,506 - root - INFO - Emotion counts: Counter({'surprise': 29, 'happy': 27, 'disgust': 14, 'angry': 10, 'fear': 2, 'sad': 1})
+2024-07-22 14:27:25,506 - root - INFO - Emotion detected: surprise
+2024-07-22 14:27:25,506 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:27:25] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:27:33,305 - root - INFO - File uploaded: toan_neutral_6.wav
+2024-07-22 14:27:33,305 - root - INFO - Audio loaded successfully: uploads/toan_neutral_6.wav, Sample rate: 22050, Length: 42867
+2024-07-22 14:27:33,309 - root - INFO - MFCC extracted successfully: Shape: (39, 84)
+2024-07-22 14:27:33,311 - root - INFO - MFCC scaled successfully: Shape: (84, 39)
+2024-07-22 14:27:33,311 - root - INFO - MFCC expanded successfully: Shape: (84, 39, 1)
+2024-07-22 14:27:33,311 - root - INFO - MFCC shape: (84, 39, 1)
+2024-07-22 14:27:33,424 - root - INFO - Emotion counts: Counter({'happy': 39, 'disgust': 21, 'surprise': 17, 'angry': 3, 'neutral': 3, 'sad': 1})
+2024-07-22 14:27:33,424 - root - INFO - Emotion detected: happy
+2024-07-22 14:27:33,425 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:27:33] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:27:40,805 - root - INFO - File uploaded: toan_neutral_7.wav
+2024-07-22 14:27:40,805 - root - INFO - Audio loaded successfully: uploads/toan_neutral_7.wav, Sample rate: 22050, Length: 43418
+2024-07-22 14:27:40,809 - root - INFO - MFCC extracted successfully: Shape: (39, 85)
+2024-07-22 14:27:40,811 - root - INFO - MFCC scaled successfully: Shape: (85, 39)
+2024-07-22 14:27:40,811 - root - INFO - MFCC expanded successfully: Shape: (85, 39, 1)
+2024-07-22 14:27:40,811 - root - INFO - MFCC shape: (85, 39, 1)
+2024-07-22 14:27:40,930 - root - INFO - Emotion counts: Counter({'happy': 34, 'surprise': 19, 'disgust': 16, 'sad': 7, 'neutral': 5, 'angry': 3, 'fear': 1})
+2024-07-22 14:27:40,930 - root - INFO - Emotion detected: happy
+2024-07-22 14:27:40,930 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:27:40] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:27:47,293 - root - INFO - File uploaded: toan_neutral_8.wav
+2024-07-22 14:27:47,293 - root - INFO - Audio loaded successfully: uploads/toan_neutral_8.wav, Sample rate: 22050, Length: 55540
+2024-07-22 14:27:47,298 - root - INFO - MFCC extracted successfully: Shape: (39, 109)
+2024-07-22 14:27:47,299 - root - INFO - MFCC scaled successfully: Shape: (109, 39)
+2024-07-22 14:27:47,299 - root - INFO - MFCC expanded successfully: Shape: (109, 39, 1)
+2024-07-22 14:27:47,299 - root - INFO - MFCC shape: (109, 39, 1)
+2024-07-22 14:27:47,439 - root - INFO - Emotion counts: Counter({'happy': 44, 'surprise': 29, 'disgust': 25, 'sad': 4, 'neutral': 4, 'angry': 3})
+2024-07-22 14:27:47,439 - root - INFO - Emotion detected: happy
+2024-07-22 14:27:47,439 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:27:47] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:27:53,954 - root - INFO - File uploaded: toan_neutral_9.wav
+2024-07-22 14:27:53,954 - root - INFO - Audio loaded successfully: uploads/toan_neutral_9.wav, Sample rate: 22050, Length: 47826
+2024-07-22 14:27:53,963 - root - INFO - MFCC extracted successfully: Shape: (39, 94)
+2024-07-22 14:27:53,965 - root - INFO - MFCC scaled successfully: Shape: (94, 39)
+2024-07-22 14:27:53,965 - root - INFO - MFCC expanded successfully: Shape: (94, 39, 1)
+2024-07-22 14:27:53,965 - root - INFO - MFCC shape: (94, 39, 1)
+2024-07-22 14:27:54,089 - root - INFO - Emotion counts: Counter({'happy': 31, 'surprise': 30, 'disgust': 20, 'sad': 9, 'angry': 3, 'fear': 1})
+2024-07-22 14:27:54,089 - root - INFO - Emotion detected: happy
+2024-07-22 14:27:54,089 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:27:54] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:28:01,265 - root - INFO - File uploaded: toan_neutral_10.wav
+2024-07-22 14:28:01,265 - root - INFO - Audio loaded successfully: uploads/toan_neutral_10.wav, Sample rate: 22050, Length: 61050
+2024-07-22 14:28:01,270 - root - INFO - MFCC extracted successfully: Shape: (39, 120)
+2024-07-22 14:28:01,272 - root - INFO - MFCC scaled successfully: Shape: (120, 39)
+2024-07-22 14:28:01,272 - root - INFO - MFCC expanded successfully: Shape: (120, 39, 1)
+2024-07-22 14:28:01,272 - root - INFO - MFCC shape: (120, 39, 1)
+2024-07-22 14:28:01,462 - root - INFO - Emotion counts: Counter({'surprise': 44, 'happy': 39, 'disgust': 25, 'sad': 7, 'angry': 4, 'neutral': 1})
+2024-07-22 14:28:01,462 - root - INFO - Emotion detected: surprise
+2024-07-22 14:28:01,463 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:28:01] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:28:09,801 - root - INFO - File uploaded: duong_sad.wav
+2024-07-22 14:28:09,806 - root - INFO - Audio loaded successfully: uploads/duong_sad.wav, Sample rate: 44100, Length: 227673
+2024-07-22 14:28:09,821 - root - INFO - MFCC extracted successfully: Shape: (39, 445)
+2024-07-22 14:28:09,822 - root - INFO - MFCC scaled successfully: Shape: (445, 39)
+2024-07-22 14:28:09,823 - root - INFO - MFCC expanded successfully: Shape: (445, 39, 1)
+2024-07-22 14:28:09,823 - root - INFO - MFCC shape: (445, 39, 1)
+2024-07-22 14:28:09,973 - root - INFO - Emotion counts: Counter({'surprise': 149, 'disgust': 94, 'happy': 81, 'angry': 46, 'sad': 46, 'fear': 23, 'neutral': 6})
+2024-07-22 14:28:09,973 - root - INFO - Emotion detected: surprise
+2024-07-22 14:28:09,973 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:28:09] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:28:15,698 - root - INFO - File uploaded: phi_sad.wav
+2024-07-22 14:28:15,703 - root - INFO - Audio loaded successfully: uploads/phi_sad.wav, Sample rate: 44100, Length: 245549
+2024-07-22 14:28:15,717 - root - INFO - MFCC extracted successfully: Shape: (39, 480)
+2024-07-22 14:28:15,718 - root - INFO - MFCC scaled successfully: Shape: (480, 39)
+2024-07-22 14:28:15,719 - root - INFO - MFCC expanded successfully: Shape: (480, 39, 1)
+2024-07-22 14:28:15,719 - root - INFO - MFCC shape: (480, 39, 1)
+2024-07-22 14:28:15,879 - root - INFO - Emotion counts: Counter({'surprise': 143, 'disgust': 98, 'happy': 85, 'sad': 71, 'angry': 40, 'fear': 27, 'neutral': 16})
+2024-07-22 14:28:15,879 - root - INFO - Emotion detected: surprise
+2024-07-22 14:28:15,879 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:28:15] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:28:21,697 - root - INFO - File uploaded: tam_sad.wav
+2024-07-22 14:28:21,704 - root - INFO - Audio loaded successfully: uploads/tam_sad.wav, Sample rate: 44100, Length: 284121
+2024-07-22 14:28:21,719 - root - INFO - MFCC extracted successfully: Shape: (39, 555)
+2024-07-22 14:28:21,721 - root - INFO - MFCC scaled successfully: Shape: (555, 39)
+2024-07-22 14:28:21,721 - root - INFO - MFCC expanded successfully: Shape: (555, 39, 1)
+2024-07-22 14:28:21,722 - root - INFO - MFCC shape: (555, 39, 1)
+2024-07-22 14:28:21,942 - root - INFO - Emotion counts: Counter({'happy': 120, 'surprise': 119, 'fear': 77, 'disgust': 71, 'angry': 71, 'sad': 70, 'neutral': 27})
+2024-07-22 14:28:21,942 - root - INFO - Emotion detected: happy
+2024-07-22 14:28:21,942 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:28:21] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:28:30,778 - root - INFO - File uploaded: thoai_sad.wav
+2024-07-22 14:28:30,782 - root - INFO - Audio loaded successfully: uploads/thoai_sad.wav, Sample rate: 44100, Length: 163700
+2024-07-22 14:28:30,792 - root - INFO - MFCC extracted successfully: Shape: (39, 320)
+2024-07-22 14:28:30,794 - root - INFO - MFCC scaled successfully: Shape: (320, 39)
+2024-07-22 14:28:30,794 - root - INFO - MFCC expanded successfully: Shape: (320, 39, 1)
+2024-07-22 14:28:30,794 - root - INFO - MFCC shape: (320, 39, 1)
+2024-07-22 14:28:30,931 - root - INFO - Emotion counts: Counter({'surprise': 87, 'happy': 62, 'sad': 49, 'angry': 46, 'disgust': 37, 'fear': 31, 'neutral': 8})
+2024-07-22 14:28:30,931 - root - INFO - Emotion detected: surprise
+2024-07-22 14:28:30,931 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:28:30] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:28:39,356 - root - INFO - File uploaded: toan_sad_1.wav
+2024-07-22 14:28:39,357 - root - INFO - Audio loaded successfully: uploads/toan_sad_1.wav, Sample rate: 22050, Length: 270981
+2024-07-22 14:28:39,373 - root - INFO - MFCC extracted successfully: Shape: (39, 530)
+2024-07-22 14:28:39,375 - root - INFO - MFCC scaled successfully: Shape: (530, 39)
+2024-07-22 14:28:39,375 - root - INFO - MFCC expanded successfully: Shape: (530, 39, 1)
+2024-07-22 14:28:39,376 - root - INFO - MFCC shape: (530, 39, 1)
+2024-07-22 14:28:39,531 - root - INFO - Emotion counts: Counter({'happy': 199, 'surprise': 114, 'disgust': 73, 'angry': 50, 'sad': 41, 'fear': 35, 'neutral': 18})
+2024-07-22 14:28:39,531 - root - INFO - Emotion detected: happy
+2024-07-22 14:28:39,532 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:28:39] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:28:46,282 - root - INFO - File uploaded: toan_sad_2.wav
+2024-07-22 14:28:46,283 - root - INFO - Audio loaded successfully: uploads/toan_sad_2.wav, Sample rate: 22050, Length: 250594
+2024-07-22 14:28:46,296 - root - INFO - MFCC extracted successfully: Shape: (39, 490)
+2024-07-22 14:28:46,298 - root - INFO - MFCC scaled successfully: Shape: (490, 39)
+2024-07-22 14:28:46,298 - root - INFO - MFCC expanded successfully: Shape: (490, 39, 1)
+2024-07-22 14:28:46,299 - root - INFO - MFCC shape: (490, 39, 1)
+2024-07-22 14:28:46,456 - root - INFO - Emotion counts: Counter({'happy': 160, 'surprise': 131, 'disgust': 59, 'angry': 51, 'fear': 40, 'sad': 30, 'neutral': 19})
+2024-07-22 14:28:46,456 - root - INFO - Emotion detected: happy
+2024-07-22 14:28:46,456 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:28:46] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:28:53,765 - root - INFO - File uploaded: toan_sad_3.wav
+2024-07-22 14:28:53,766 - root - INFO - Audio loaded successfully: uploads/toan_sad_3.wav, Sample rate: 22050, Length: 180617
+2024-07-22 14:28:53,778 - root - INFO - MFCC extracted successfully: Shape: (39, 353)
+2024-07-22 14:28:53,780 - root - INFO - MFCC scaled successfully: Shape: (353, 39)
+2024-07-22 14:28:53,780 - root - INFO - MFCC expanded successfully: Shape: (353, 39, 1)
+2024-07-22 14:28:53,780 - root - INFO - MFCC shape: (353, 39, 1)
+2024-07-22 14:28:53,956 - root - INFO - Emotion counts: Counter({'surprise': 100, 'happy': 99, 'fear': 45, 'disgust': 41, 'sad': 38, 'angry': 25, 'neutral': 5})
+2024-07-22 14:28:53,956 - root - INFO - Emotion detected: surprise
+2024-07-22 14:28:53,956 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:28:53] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:29:01,803 - root - INFO - File uploaded: toan_sad_4.wav
+2024-07-22 14:29:01,804 - root - INFO - Audio loaded successfully: uploads/toan_sad_4.wav, Sample rate: 22050, Length: 228003
+2024-07-22 14:29:01,823 - root - INFO - MFCC extracted successfully: Shape: (39, 446)
+2024-07-22 14:29:01,824 - root - INFO - MFCC scaled successfully: Shape: (446, 39)
+2024-07-22 14:29:01,825 - root - INFO - MFCC expanded successfully: Shape: (446, 39, 1)
+2024-07-22 14:29:01,825 - root - INFO - MFCC shape: (446, 39, 1)
+2024-07-22 14:29:01,984 - root - INFO - Emotion counts: Counter({'happy': 127, 'surprise': 99, 'disgust': 71, 'sad': 53, 'angry': 44, 'fear': 38, 'neutral': 14})
+2024-07-22 14:29:01,984 - root - INFO - Emotion detected: happy
+2024-07-22 14:29:01,984 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:29:01] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:29:08,589 - root - INFO - File uploaded: toan_sad_5.wav
+2024-07-22 14:29:08,590 - root - INFO - Audio loaded successfully: uploads/toan_sad_5.wav, Sample rate: 22050, Length: 250043
+2024-07-22 14:29:08,605 - root - INFO - MFCC extracted successfully: Shape: (39, 489)
+2024-07-22 14:29:08,607 - root - INFO - MFCC scaled successfully: Shape: (489, 39)
+2024-07-22 14:29:08,607 - root - INFO - MFCC expanded successfully: Shape: (489, 39, 1)
+2024-07-22 14:29:08,607 - root - INFO - MFCC shape: (489, 39, 1)
+2024-07-22 14:29:08,764 - root - INFO - Emotion counts: Counter({'happy': 145, 'surprise': 110, 'sad': 94, 'disgust': 65, 'angry': 34, 'fear': 26, 'neutral': 15})
+2024-07-22 14:29:08,764 - root - INFO - Emotion detected: happy
+2024-07-22 14:29:08,764 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:29:08] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:29:16,088 - root - INFO - File uploaded: toan_sad_6.wav
+2024-07-22 14:29:16,090 - root - INFO - Audio loaded successfully: uploads/toan_sad_6.wav, Sample rate: 22050, Length: 358299
+2024-07-22 14:29:16,112 - root - INFO - MFCC extracted successfully: Shape: (39, 700)
+2024-07-22 14:29:16,114 - root - INFO - MFCC scaled successfully: Shape: (700, 39)
+2024-07-22 14:29:16,114 - root - INFO - MFCC expanded successfully: Shape: (700, 39, 1)
+2024-07-22 14:29:16,114 - root - INFO - MFCC shape: (700, 39, 1)
+2024-07-22 14:29:16,293 - root - INFO - Emotion counts: Counter({'disgust': 232, 'sad': 139, 'happy': 135, 'surprise': 80, 'fear': 54, 'angry': 31, 'neutral': 29})
+2024-07-22 14:29:16,293 - root - INFO - Emotion detected: disgust
+2024-07-22 14:29:16,294 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:29:16] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:29:43,376 - root - INFO - File uploaded: toan_sad_7.wav
+2024-07-22 14:29:43,377 - root - INFO - Audio loaded successfully: uploads/toan_sad_7.wav, Sample rate: 22050, Length: 180617
+2024-07-22 14:29:43,389 - root - INFO - MFCC extracted successfully: Shape: (39, 353)
+2024-07-22 14:29:43,391 - root - INFO - MFCC scaled successfully: Shape: (353, 39)
+2024-07-22 14:29:43,391 - root - INFO - MFCC expanded successfully: Shape: (353, 39, 1)
+2024-07-22 14:29:43,391 - root - INFO - MFCC shape: (353, 39, 1)
+2024-07-22 14:29:43,536 - root - INFO - Emotion counts: Counter({'happy': 126, 'surprise': 77, 'sad': 48, 'disgust': 38, 'fear': 33, 'angry': 20, 'neutral': 11})
+2024-07-22 14:29:43,536 - root - INFO - Emotion detected: happy
+2024-07-22 14:29:43,537 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:29:43] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:29:50,897 - root - INFO - File uploaded: toan_sad_8.wav
+2024-07-22 14:29:50,898 - root - INFO - Audio loaded successfully: uploads/toan_sad_8.wav, Sample rate: 22050, Length: 253349
+2024-07-22 14:29:50,912 - root - INFO - MFCC extracted successfully: Shape: (39, 495)
+2024-07-22 14:29:50,914 - root - INFO - MFCC scaled successfully: Shape: (495, 39)
+2024-07-22 14:29:50,914 - root - INFO - MFCC expanded successfully: Shape: (495, 39, 1)
+2024-07-22 14:29:50,914 - root - INFO - MFCC shape: (495, 39, 1)
+2024-07-22 14:29:51,071 - root - INFO - Emotion counts: Counter({'happy': 168, 'surprise': 112, 'disgust': 83, 'sad': 53, 'angry': 36, 'neutral': 27, 'fear': 16})
+2024-07-22 14:29:51,071 - root - INFO - Emotion detected: happy
+2024-07-22 14:29:51,072 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:29:51] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:29:56,896 - root - INFO - File uploaded: toan_sad_9.wav
+2024-07-22 14:29:56,897 - root - INFO - Audio loaded successfully: uploads/toan_sad_9.wav, Sample rate: 22050, Length: 219738
+2024-07-22 14:29:56,910 - root - INFO - MFCC extracted successfully: Shape: (39, 430)
+2024-07-22 14:29:56,912 - root - INFO - MFCC scaled successfully: Shape: (430, 39)
+2024-07-22 14:29:56,912 - root - INFO - MFCC expanded successfully: Shape: (430, 39, 1)
+2024-07-22 14:29:56,912 - root - INFO - MFCC shape: (430, 39, 1)
+2024-07-22 14:29:57,086 - root - INFO - Emotion counts: Counter({'happy': 211, 'disgust': 73, 'surprise': 68, 'angry': 33, 'neutral': 19, 'fear': 14, 'sad': 12})
+2024-07-22 14:29:57,086 - root - INFO - Emotion detected: happy
+2024-07-22 14:29:57,087 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:29:57] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:30:02,874 - root - INFO - File uploaded: toan_sad_10.wav
+2024-07-22 14:30:02,875 - root - INFO - Audio loaded successfully: uploads/toan_sad_10.wav, Sample rate: 22050, Length: 167393
+2024-07-22 14:30:02,886 - root - INFO - MFCC extracted successfully: Shape: (39, 327)
+2024-07-22 14:30:02,888 - root - INFO - MFCC scaled successfully: Shape: (327, 39)
+2024-07-22 14:30:02,888 - root - INFO - MFCC expanded successfully: Shape: (327, 39, 1)
+2024-07-22 14:30:02,888 - root - INFO - MFCC shape: (327, 39, 1)
+2024-07-22 14:30:03,031 - root - INFO - Emotion counts: Counter({'happy': 89, 'surprise': 79, 'disgust': 58, 'sad': 53, 'fear': 19, 'angry': 17, 'neutral': 12})
+2024-07-22 14:30:03,031 - root - INFO - Emotion detected: happy
+2024-07-22 14:30:03,032 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:30:03] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:30:08,282 - root - INFO - File uploaded: duong_surprise.wav
+2024-07-22 14:30:08,285 - root - INFO - Audio loaded successfully: uploads/duong_surprise.wav, Sample rate: 44100, Length: 158055
+2024-07-22 14:30:08,297 - root - INFO - MFCC extracted successfully: Shape: (39, 309)
+2024-07-22 14:30:08,298 - root - INFO - MFCC scaled successfully: Shape: (309, 39)
+2024-07-22 14:30:08,299 - root - INFO - MFCC expanded successfully: Shape: (309, 39, 1)
+2024-07-22 14:30:08,299 - root - INFO - MFCC shape: (309, 39, 1)
+2024-07-22 14:30:08,433 - root - INFO - Emotion counts: Counter({'angry': 87, 'happy': 55, 'fear': 49, 'disgust': 43, 'surprise': 37, 'neutral': 26, 'sad': 12})
+2024-07-22 14:30:08,434 - root - INFO - Emotion detected: angry
+2024-07-22 14:30:08,434 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:30:08] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:30:14,610 - root - INFO - File uploaded: phi_surprise.wav
+2024-07-22 14:30:14,614 - root - INFO - Audio loaded successfully: uploads/phi_surprise.wav, Sample rate: 44100, Length: 143001
+2024-07-22 14:30:14,626 - root - INFO - MFCC extracted successfully: Shape: (39, 280)
+2024-07-22 14:30:14,628 - root - INFO - MFCC scaled successfully: Shape: (280, 39)
+2024-07-22 14:30:14,628 - root - INFO - MFCC expanded successfully: Shape: (280, 39, 1)
+2024-07-22 14:30:14,628 - root - INFO - MFCC shape: (280, 39, 1)
+2024-07-22 14:30:14,758 - root - INFO - Emotion counts: Counter({'disgust': 93, 'surprise': 88, 'happy': 45, 'sad': 29, 'angry': 15, 'fear': 10})
+2024-07-22 14:30:14,758 - root - INFO - Emotion detected: disgust
+2024-07-22 14:30:14,758 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:30:14] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:30:20,258 - root - INFO - File uploaded: tam_surprise.wav
+2024-07-22 14:30:20,264 - root - INFO - Audio loaded successfully: uploads/tam_surprise.wav, Sample rate: 44100, Length: 255897
+2024-07-22 14:30:20,278 - root - INFO - MFCC extracted successfully: Shape: (39, 500)
+2024-07-22 14:30:20,280 - root - INFO - MFCC scaled successfully: Shape: (500, 39)
+2024-07-22 14:30:20,280 - root - INFO - MFCC expanded successfully: Shape: (500, 39, 1)
+2024-07-22 14:30:20,280 - root - INFO - MFCC shape: (500, 39, 1)
+2024-07-22 14:30:20,440 - root - INFO - Emotion counts: Counter({'surprise': 117, 'happy': 99, 'disgust': 83, 'angry': 79, 'fear': 52, 'sad': 41, 'neutral': 29})
+2024-07-22 14:30:20,440 - root - INFO - Emotion detected: surprise
+2024-07-22 14:30:20,440 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:30:20] "POST /upload HTTP/1.1" 200 -
+2024-07-22 14:30:27,505 - root - INFO - File uploaded: thoai_surprise.wav
+2024-07-22 14:30:27,508 - root - INFO - Audio loaded successfully: uploads/thoai_surprise.wav, Sample rate: 44100, Length: 147705
+2024-07-22 14:30:27,518 - root - INFO - MFCC extracted successfully: Shape: (39, 289)
+2024-07-22 14:30:27,520 - root - INFO - MFCC scaled successfully: Shape: (289, 39)
+2024-07-22 14:30:27,520 - root - INFO - MFCC expanded successfully: Shape: (289, 39, 1)
+2024-07-22 14:30:27,520 - root - INFO - MFCC shape: (289, 39, 1)
+2024-07-22 14:30:27,656 - root - INFO - Emotion counts: Counter({'surprise': 79, 'happy': 66, 'disgust': 52, 'neutral': 30, 'sad': 28, 'angry': 27, 'fear': 7})
+2024-07-22 14:30:27,656 - root - INFO - Emotion detected: surprise
+2024-07-22 14:30:27,656 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:30:27] "POST /upload HTTP/1.1" 200 -
