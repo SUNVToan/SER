@@ -21,9 +21,6 @@ logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
 )
 
-# Load the encoder
-encoder = joblib.load("encoder.joblib")
-
 
 def allowed_file(filename):
     return "." in filename and filename.rsplit(".", 1)[1].lower() in ALLOWED_EXTENSIONS
@@ -32,12 +29,19 @@ def allowed_file(filename):
 # Tạo thư mục lưu trữ nếu chưa tồn tại
 os.makedirs(app.config["UPLOAD_FOLDER"], exist_ok=True)
 
+# Load the encoder
+encoder = joblib.load("encoder.joblib")
+
+# Tải scaler đã lưu
+scaler = joblib.load("scaler.joblib")
+
 # Load mô hình đã huấn luyện
 model = load_model("model_1.h5")
 
 
 # Hàm xử lý file âm thanh và trích xuất đặc trưng MFCC
 def process_audio(file_path):
+    result = np.array([])
     try:
         y, sr = librosa.load(file_path, sr=None)
         logging.info(
@@ -47,34 +51,29 @@ def process_audio(file_path):
         logging.error(f"Error loading audio: {e}")
         raise e
     try:
-        mfcc = librosa.feature.mfcc(y=y, sr=sr, n_mfcc=39)  # Trích xuất MFCCs
+        mfcc = np.mean(
+            librosa.feature.mfcc(y=y, sr=sr, n_mfcc=39).T, axis=0
+        )  # Trích xuất MFCCs
+        result = np.hstack((result, mfcc))  # stacking horizontally
         logging.info(f"MFCC extracted successfully: Shape: {mfcc.shape}")
+        # print("result:", result)
     except Exception as e:
         logging.error(f"Error extracting MFCC: {e}")
         raise e
     # scaling our data with sklearn's Standard scaler
     try:
-        scaler = StandardScaler()
-        mfcc = scaler.fit_transform(mfcc.T)  # Chuẩn hóa dữ liệu và chuyển vị MFCC
-        logging.info(f"MFCC scaled successfully: Shape: {mfcc.shape}")
+        result = result.reshape(1, -1)  # Chuyển đổi thành mảng 2D với một mẫu
+        # scaler = StandardScaler()
+        result = scaler.transform(result)  # Chuẩn hóa dữ liệu và chuyển vị MFCC
+        logging.info(f"MFCC scaled successfully: Shape: {result.shape}")
+        # print("result:", result)
     except Exception as e:
         logging.error(f"Error scaling MFCC: {e}")
         raise e
 
-    mfcc = np.expand_dims(mfcc, axis=2)  # Thêm chiều cuối cùng là 1
-    logging.info(f"MFCC expanded successfully: Shape: {mfcc.shape}")
-    return mfcc
-
-
-def get_emotion_label(emotion_class):
-    # Định nghĩa bản đồ từ chỉ số dự đoán sang nhãn cảm xúc
-    labels = ["angry", "disgust", "fear", "happy", "neutral", "sad", "surprise"]
-
-    # Kiểm tra nếu chỉ số emotion_class hợp lệ
-    if 0 <= emotion_class < len(labels):
-        return labels[emotion_class]
-    else:
-        return "Unknown"  # Trả về giá trị mặc định hoặc thông báo lỗi khi chỉ số không hợp lệ
+    result = np.expand_dims(result, axis=2)  # Thêm chiều cuối cùng là 1
+    logging.info(f"MFCC expanded successfully: Shape: {result.shape}")
+    return result
 
 
 @app.route("/")
@@ -109,12 +108,10 @@ def upload_file():
         try:
             print("File path:", file_path)  # In ra đường dẫn tệp
             mfcc = process_audio(file_path)
-            print("MFCC shape:", mfcc.shape)  # In ra hình dạng của MFCC
-            logging.info(f"MFCC shape: {mfcc.shape}")
-
+            # print("MFCC:", mfcc)  # In ra hình dạng của MFCC
             try:
                 prediction = model.predict(mfcc)
-                # print("Prediction:", prediction)  # In ra giá trị dự đoán
+                print("Prediction:", prediction)  # In ra giá trị dự đoán
             except Exception as e:
                 print("Error during model prediction:", e)
                 logging.error(f"Error during model prediction: {e}")
@@ -126,31 +123,14 @@ def upload_file():
                     prediction
                 )  # Chuyển dự đoán về dạng số nguyên
                 print("Transformed Prediction:", prediction)
-                # logging.info(f"Transformed Prediction: {prediction}")
+                logging.info(f"Transformed Prediction: {prediction}")
             except Exception as e:
                 print("Error during prediction transformation:", e)
                 logging.error(f"Error during prediction transformation: {e}")
                 raise
 
-            try:
-                # Đếm số lần xuất hiện của từng nhãn cảm xúc
-                emotion_counts = Counter([label[0] for label in prediction])
-                print(
-                    "Emotion counts:", emotion_counts
-                )  # In ra số lượng của các cảm xúc
-                logging.info(f"Emotion counts: {emotion_counts}")
-
-                # Chọn nhãn có số lượng dự đoán cao nhất
-                most_common_emotion = emotion_counts.most_common(1)[0][0]
-                print("Most common emotion:", most_common_emotion)
-                logging.info(f"Emotion detected: {most_common_emotion}")
-            except Exception as e:
-                print("Error during emotion counting and labeling:", e)
-                logging.error(f"Error during emotion counting and labeling: {e}")
-                raise
-
             # Trả về kết quả bao gồm cả xác suất của nhãn cảm xúc
-            return jsonify({"emotion": most_common_emotion})
+            return jsonify({"emotion": prediction[0][0]})
 
         except Exception as e:
             return (

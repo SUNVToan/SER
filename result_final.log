@@ -1,0 +1,742 @@
+2024-07-22 21:56:54,073 - root - INFO - File uploaded: OAF_back_angry.wav
+2024-07-22 21:56:55,057 - root - INFO - Audio loaded successfully: uploads/OAF_back_angry.wav, Sample rate: 24414, Length: 37574
+2024-07-22 21:56:55,082 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 21:56:55,083 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 21:56:55,083 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 21:56:56,038 - root - INFO - Transformed Prediction: [['angry']]
+2024-07-22 21:56:56,039 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 21:56:56] "POST /upload HTTP/1.1" 200 -
+2024-07-22 21:57:03,510 - root - INFO - File uploaded: OAF_bar_angry.wav
+2024-07-22 21:57:03,511 - root - INFO - Audio loaded successfully: uploads/OAF_bar_angry.wav, Sample rate: 24414, Length: 39468
+2024-07-22 21:57:03,516 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 21:57:03,516 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 21:57:03,516 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 21:57:03,629 - root - INFO - Transformed Prediction: [['angry']]
+2024-07-22 21:57:03,630 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 21:57:03] "POST /upload HTTP/1.1" 200 -
+2024-07-22 21:57:34,553 - root - INFO - File uploaded: OAF_back_disgust.wav
+2024-07-22 21:57:34,554 - root - INFO - Audio loaded successfully: uploads/OAF_back_disgust.wav, Sample rate: 24414, Length: 55184
+2024-07-22 21:57:34,558 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 21:57:34,559 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 21:57:34,559 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 21:57:34,675 - root - INFO - Transformed Prediction: [['disgust']]
+2024-07-22 21:57:34,676 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 21:57:34] "POST /upload HTTP/1.1" 200 -
+2024-07-22 21:57:43,918 - root - INFO - File uploaded: OAF_bar_disgust.wav
+2024-07-22 21:57:43,919 - root - INFO - Audio loaded successfully: uploads/OAF_bar_disgust.wav, Sample rate: 24414, Length: 55492
+2024-07-22 21:57:43,923 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 21:57:43,924 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 21:57:43,924 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 21:57:44,023 - root - INFO - Transformed Prediction: [['disgust']]
+2024-07-22 21:57:44,024 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 21:57:44] "POST /upload HTTP/1.1" 200 -
+2024-07-22 21:57:53,119 - root - INFO - File uploaded: OAF_back_fear.wav
+2024-07-22 21:57:53,119 - root - INFO - Audio loaded successfully: uploads/OAF_back_fear.wav, Sample rate: 24414, Length: 42166
+2024-07-22 21:57:53,124 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 21:57:53,124 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 21:57:53,124 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 21:57:53,231 - root - INFO - Transformed Prediction: [['fear']]
+2024-07-22 21:57:53,231 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 21:57:53] "POST /upload HTTP/1.1" 200 -
+2024-07-22 21:58:00,022 - root - INFO - File uploaded: OAF_bar_fear.wav
+2024-07-22 21:58:00,023 - root - INFO - Audio loaded successfully: uploads/OAF_bar_fear.wav, Sample rate: 24414, Length: 41252
+2024-07-22 21:58:00,027 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 21:58:00,028 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 21:58:00,028 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 21:58:00,136 - root - INFO - Transformed Prediction: [['fear']]
+2024-07-22 21:58:00,137 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 21:58:00] "POST /upload HTTP/1.1" 200 -
+2024-07-22 21:58:05,554 - root - INFO - File uploaded: OAF_back_happy.wav
+2024-07-22 21:58:05,554 - root - INFO - Audio loaded successfully: uploads/OAF_back_happy.wav, Sample rate: 24414, Length: 48851
+2024-07-22 21:58:05,559 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 21:58:05,560 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 21:58:05,560 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 21:58:05,666 - root - INFO - Transformed Prediction: [['surprise']]
+2024-07-22 21:58:05,667 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 21:58:05] "POST /upload HTTP/1.1" 200 -
+2024-07-22 21:58:12,570 - root - INFO - File uploaded: OAF_bar_happy.wav
+2024-07-22 21:58:12,571 - root - INFO - Audio loaded successfully: uploads/OAF_bar_happy.wav, Sample rate: 24414, Length: 48836
+2024-07-22 21:58:12,576 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 21:58:12,576 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 21:58:12,577 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 21:58:12,685 - root - INFO - Transformed Prediction: [['happy']]
+2024-07-22 21:58:12,685 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 21:58:12] "POST /upload HTTP/1.1" 200 -
+2024-07-22 21:58:19,142 - root - INFO - File uploaded: OA_bite_neutral.wav
+2024-07-22 21:58:19,142 - root - INFO - Audio loaded successfully: uploads/OA_bite_neutral.wav, Sample rate: 24414, Length: 51589
+2024-07-22 21:58:19,149 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 21:58:19,150 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 21:58:19,150 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 21:58:19,266 - root - INFO - Transformed Prediction: [['neutral']]
+2024-07-22 21:58:19,266 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 21:58:19] "POST /upload HTTP/1.1" 200 -
+2024-07-22 21:58:24,731 - root - INFO - File uploaded: OAF_back_neutral.wav
+2024-07-22 21:58:24,732 - root - INFO - Audio loaded successfully: uploads/OAF_back_neutral.wav, Sample rate: 24414, Length: 49888
+2024-07-22 21:58:24,736 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 21:58:24,737 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 21:58:24,737 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 21:58:24,842 - root - INFO - Transformed Prediction: [['neutral']]
+2024-07-22 21:58:24,843 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 21:58:24] "POST /upload HTTP/1.1" 200 -
+2024-07-22 21:58:29,839 - root - INFO - File uploaded: OAF_back_ps.wav
+2024-07-22 21:58:29,839 - root - INFO - Audio loaded successfully: uploads/OAF_back_ps.wav, Sample rate: 24414, Length: 49619
+2024-07-22 21:58:29,844 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 21:58:29,844 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 21:58:29,844 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 21:58:29,960 - root - INFO - Transformed Prediction: [['disgust']]
+2024-07-22 21:58:29,961 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 21:58:29] "POST /upload HTTP/1.1" 200 -
+2024-07-22 21:58:35,511 - root - INFO - File uploaded: OAF_bite_ps.wav
+2024-07-22 21:58:35,511 - root - INFO - Audio loaded successfully: uploads/OAF_bite_ps.wav, Sample rate: 24414, Length: 40933
+2024-07-22 21:58:35,516 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 21:58:35,516 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 21:58:35,516 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 21:58:35,616 - root - INFO - Transformed Prediction: [['surprise']]
+2024-07-22 21:58:35,616 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 21:58:35] "POST /upload HTTP/1.1" 200 -
+2024-07-22 21:58:41,168 - root - INFO - File uploaded: OAF_burn_ps.wav
+2024-07-22 21:58:41,169 - root - INFO - Audio loaded successfully: uploads/OAF_burn_ps.wav, Sample rate: 24414, Length: 43538
+2024-07-22 21:58:41,176 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 21:58:41,177 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 21:58:41,177 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 21:58:41,281 - root - INFO - Transformed Prediction: [['surprise']]
+2024-07-22 21:58:41,281 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 21:58:41] "POST /upload HTTP/1.1" 200 -
+2024-07-22 21:58:46,762 - root - INFO - File uploaded: OAF_book_sad.wav
+2024-07-22 21:58:46,763 - root - INFO - Audio loaded successfully: uploads/OAF_book_sad.wav, Sample rate: 24414, Length: 61409
+2024-07-22 21:58:46,768 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 21:58:46,768 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 21:58:46,769 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 21:58:46,881 - root - INFO - Transformed Prediction: [['sad']]
+2024-07-22 21:58:46,883 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 21:58:46] "POST /upload HTTP/1.1" 200 -
+2024-07-22 21:58:52,187 - root - INFO - File uploaded: OAF_cause_sad.wav
+2024-07-22 21:58:52,188 - root - INFO - Audio loaded successfully: uploads/OAF_cause_sad.wav, Sample rate: 24414, Length: 60272
+2024-07-22 21:58:52,194 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 21:58:52,194 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 21:58:52,194 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 21:58:52,308 - root - INFO - Transformed Prediction: [['sad']]
+2024-07-22 21:58:52,308 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 21:58:52] "POST /upload HTTP/1.1" 200 -
+2024-07-22 21:59:52,550 - root - INFO - File uploaded: duong_angry.wav
+2024-07-22 21:59:52,554 - root - INFO - Audio loaded successfully: uploads/duong_angry.wav, Sample rate: 44100, Length: 159936
+2024-07-22 21:59:52,567 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 21:59:52,567 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 21:59:52,568 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 21:59:52,682 - root - INFO - Transformed Prediction: [['disgust']]
+2024-07-22 21:59:52,682 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 21:59:52] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:00:01,341 - root - INFO - File uploaded: phi_angry.wav
+2024-07-22 22:00:01,347 - root - INFO - Audio loaded successfully: uploads/phi_angry.wav, Sample rate: 44100, Length: 187220
+2024-07-22 22:00:01,359 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:00:01,360 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:00:01,360 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:00:01,471 - root - INFO - Transformed Prediction: [['disgust']]
+2024-07-22 22:00:01,472 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:00:01] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:00:10,184 - root - INFO - File uploaded: toan_angry_1.wav
+2024-07-22 22:00:10,185 - root - INFO - Audio loaded successfully: uploads/toan_angry_1.wav, Sample rate: 22050, Length: 186127
+2024-07-22 22:00:10,197 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:00:10,198 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:00:10,198 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:00:10,303 - root - INFO - Transformed Prediction: [['sad']]
+2024-07-22 22:00:10,304 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:00:10] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:00:19,177 - root - INFO - File uploaded: tam_angry.wav
+2024-07-22 22:00:19,182 - root - INFO - Audio loaded successfully: uploads/tam_angry.wav, Sample rate: 44100, Length: 191924
+2024-07-22 22:00:19,193 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:00:19,194 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:00:19,194 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:00:19,304 - root - INFO - Transformed Prediction: [['disgust']]
+2024-07-22 22:00:19,305 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:00:19] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:00:26,274 - root - INFO - File uploaded: thoai_angry.wav
+2024-07-22 22:00:26,278 - root - INFO - Audio loaded successfully: uploads/thoai_angry.wav, Sample rate: 44100, Length: 122304
+2024-07-22 22:00:26,297 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:00:26,298 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:00:26,298 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:00:26,426 - root - INFO - Transformed Prediction: [['disgust']]
+2024-07-22 22:00:26,427 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:00:26] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:00:42,310 - root - INFO - File uploaded: toan_angry_2.wav
+2024-07-22 22:00:42,311 - root - INFO - Audio loaded successfully: uploads/toan_angry_2.wav, Sample rate: 22050, Length: 202657
+2024-07-22 22:00:42,323 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:00:42,324 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:00:42,324 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:00:42,481 - root - INFO - Transformed Prediction: [['sad']]
+2024-07-22 22:00:42,482 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:00:42] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:00:50,974 - root - INFO - File uploaded: toan_angry_3.wav
+2024-07-22 22:00:50,975 - root - INFO - Audio loaded successfully: uploads/toan_angry_3.wav, Sample rate: 22050, Length: 138190
+2024-07-22 22:00:50,984 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:00:50,984 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:00:50,985 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:00:51,093 - root - INFO - Transformed Prediction: [['disgust']]
+2024-07-22 22:00:51,093 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:00:51] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:00:58,684 - root - INFO - File uploaded: toan_angry_4.wav
+2024-07-22 22:00:58,685 - root - INFO - Audio loaded successfully: uploads/toan_angry_4.wav, Sample rate: 22050, Length: 158026
+2024-07-22 22:00:58,696 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:00:58,696 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:00:58,697 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:00:58,802 - root - INFO - Transformed Prediction: [['sad']]
+2024-07-22 22:00:58,803 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:00:58] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:01:06,677 - root - INFO - File uploaded: toan_angry_5.wav
+2024-07-22 22:01:06,678 - root - INFO - Audio loaded successfully: uploads/toan_angry_5.wav, Sample rate: 22050, Length: 209269
+2024-07-22 22:01:06,691 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:01:06,691 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:01:06,691 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:01:06,810 - root - INFO - Transformed Prediction: [['sad']]
+2024-07-22 22:01:06,811 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:01:06] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:01:16,860 - root - INFO - File uploaded: toan_angry_6.wav
+2024-07-22 22:01:16,861 - root - INFO - Audio loaded successfully: uploads/toan_angry_6.wav, Sample rate: 22050, Length: 190535
+2024-07-22 22:01:16,874 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:01:16,877 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:01:16,877 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:01:17,007 - root - INFO - Transformed Prediction: [['sad']]
+2024-07-22 22:01:17,007 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:01:17] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:01:28,941 - root - INFO - File uploaded: toan_angry_7.wav
+2024-07-22 22:01:28,942 - root - INFO - Audio loaded successfully: uploads/toan_angry_7.wav, Sample rate: 22050, Length: 201004
+2024-07-22 22:01:28,955 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:01:28,956 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:01:28,956 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:01:29,073 - root - INFO - Transformed Prediction: [['sad']]
+2024-07-22 22:01:29,073 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:01:29] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:01:37,158 - root - INFO - File uploaded: toan_angry_8.wav
+2024-07-22 22:01:37,159 - root - INFO - Audio loaded successfully: uploads/toan_angry_8.wav, Sample rate: 22050, Length: 171801
+2024-07-22 22:01:37,170 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:01:37,170 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:01:37,170 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:01:37,267 - root - INFO - Transformed Prediction: [['sad']]
+2024-07-22 22:01:37,267 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:01:37] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:01:58,289 - root - INFO - File uploaded: toan_angry_9.wav
+2024-07-22 22:01:58,291 - root - INFO - Audio loaded successfully: uploads/toan_angry_9.wav, Sample rate: 22050, Length: 157475
+2024-07-22 22:01:58,301 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:01:58,301 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:01:58,301 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:01:58,418 - root - INFO - Transformed Prediction: [['sad']]
+2024-07-22 22:01:58,418 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:01:58] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:02:04,917 - root - INFO - File uploaded: toan_angry_10.wav
+2024-07-22 22:02:04,919 - root - INFO - Audio loaded successfully: uploads/toan_angry_10.wav, Sample rate: 22050, Length: 190535
+2024-07-22 22:02:04,932 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:02:04,932 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:02:04,933 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:02:05,064 - root - INFO - Transformed Prediction: [['sad']]
+2024-07-22 22:02:05,065 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:02:05] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:02:11,759 - root - INFO - File uploaded: duong_disgust.wav
+2024-07-22 22:02:11,764 - root - INFO - Audio loaded successfully: uploads/duong_disgust.wav, Sample rate: 44100, Length: 191924
+2024-07-22 22:02:11,778 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:02:11,779 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:02:11,779 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:02:11,891 - root - INFO - Transformed Prediction: [['disgust']]
+2024-07-22 22:02:11,892 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:02:11] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:02:17,650 - root - INFO - File uploaded: OAF_bar_disgust.wav
+2024-07-22 22:02:17,650 - root - INFO - Audio loaded successfully: uploads/OAF_bar_disgust.wav, Sample rate: 24414, Length: 55492
+2024-07-22 22:02:17,659 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:02:17,659 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:02:17,659 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:02:17,769 - root - INFO - Transformed Prediction: [['disgust']]
+2024-07-22 22:02:17,770 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:02:17] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:02:29,372 - root - INFO - File uploaded: phi_disgust.wav
+2024-07-22 22:02:29,377 - root - INFO - Audio loaded successfully: uploads/phi_disgust.wav, Sample rate: 44100, Length: 201332
+2024-07-22 22:02:29,390 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:02:29,390 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:02:29,391 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:02:29,492 - root - INFO - Transformed Prediction: [['disgust']]
+2024-07-22 22:02:29,493 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:02:29] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:02:43,767 - root - INFO - File uploaded: tam_disgust.wav
+2024-07-22 22:02:43,778 - root - INFO - Audio loaded successfully: uploads/tam_disgust.wav, Sample rate: 44100, Length: 324576
+2024-07-22 22:02:43,799 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:02:43,800 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:02:43,800 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:02:43,915 - root - INFO - Transformed Prediction: [['disgust']]
+2024-07-22 22:02:43,916 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:02:43] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:02:55,005 - root - INFO - File uploaded: thoai_disgust.wav
+2024-07-22 22:02:55,009 - root - INFO - Audio loaded successfully: uploads/thoai_disgust.wav, Sample rate: 44100, Length: 154292
+2024-07-22 22:02:55,019 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:02:55,020 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:02:55,020 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:02:55,162 - root - INFO - Transformed Prediction: [['disgust']]
+2024-07-22 22:02:55,162 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:02:55] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:31:50,897 - root - INFO - File uploaded: toan_disgust_bontam.wav
+2024-07-22 22:31:50,897 - root - INFO - Audio loaded successfully: uploads/toan_disgust_bontam.wav, Sample rate: 22050, Length: 45071
+2024-07-22 22:31:50,902 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:31:50,903 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:31:50,903 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:31:51,011 - root - INFO - Transformed Prediction: [['sad']]
+2024-07-22 22:31:51,014 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:31:51] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:32:03,113 - root - INFO - File uploaded: toan_disgust_bupbe.wav
+2024-07-22 22:32:03,113 - root - INFO - Audio loaded successfully: uploads/toan_disgust_bupbe.wav, Sample rate: 22050, Length: 43969
+2024-07-22 22:32:03,118 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:32:03,119 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:32:03,119 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:32:03,226 - root - INFO - Transformed Prediction: [['fear']]
+2024-07-22 22:32:03,226 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:32:03] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:32:16,283 - root - INFO - File uploaded: toan_disgust_cailo.wav
+2024-07-22 22:32:16,283 - root - INFO - Audio loaded successfully: uploads/toan_disgust_cailo.wav, Sample rate: 22050, Length: 46173
+2024-07-22 22:32:16,290 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:32:16,290 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:32:16,290 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:32:16,424 - root - INFO - Transformed Prediction: [['disgust']]
+2024-07-22 22:32:16,424 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:32:16] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:32:26,542 - root - INFO - File uploaded: toan_disgust_caima.wav
+2024-07-22 22:32:26,543 - root - INFO - Audio loaded successfully: uploads/toan_disgust_caima.wav, Sample rate: 22050, Length: 46724
+2024-07-22 22:32:26,548 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:32:26,549 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:32:26,549 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:32:26,672 - root - INFO - Transformed Prediction: [['disgust']]
+2024-07-22 22:32:26,672 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:32:26] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:32:36,527 - root - INFO - File uploaded: toan_disgust_daomuong.wav
+2024-07-22 22:32:36,528 - root - INFO - Audio loaded successfully: uploads/toan_disgust_daomuong.wav, Sample rate: 22050, Length: 50030
+2024-07-22 22:32:36,532 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:32:36,533 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:32:36,533 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:32:36,640 - root - INFO - Transformed Prediction: [['sad']]
+2024-07-22 22:32:36,640 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:32:36] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:32:47,189 - root - INFO - File uploaded: toan_disgust_dibo.wav
+2024-07-22 22:32:47,190 - root - INFO - Audio loaded successfully: uploads/toan_disgust_dibo.wav, Sample rate: 22050, Length: 48377
+2024-07-22 22:32:47,194 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:32:47,195 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:32:47,195 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:32:47,297 - root - INFO - Transformed Prediction: [['disgust']]
+2024-07-22 22:32:47,298 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:32:47] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:32:59,664 - root - INFO - File uploaded: toan_disgust_doan.wav
+2024-07-22 22:32:59,665 - root - INFO - Audio loaded successfully: uploads/toan_disgust_doan.wav, Sample rate: 22050, Length: 50030
+2024-07-22 22:32:59,670 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:32:59,671 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:32:59,671 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:32:59,776 - root - INFO - Transformed Prediction: [['sad']]
+2024-07-22 22:32:59,776 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:32:59] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:33:13,784 - root - INFO - File uploaded: toan_disgust_gap.wav
+2024-07-22 22:33:13,784 - root - INFO - Audio loaded successfully: uploads/toan_disgust_gap.wav, Sample rate: 22050, Length: 36793
+2024-07-22 22:33:13,789 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:33:13,789 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:33:13,790 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:33:13,906 - root - INFO - Transformed Prediction: [['sad']]
+2024-07-22 22:33:13,906 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:33:13] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:33:26,301 - root - INFO - File uploaded: toan_disgust_hatdau.wav
+2024-07-22 22:33:26,301 - root - INFO - Audio loaded successfully: uploads/toan_disgust_hatdau.wav, Sample rate: 22050, Length: 53887
+2024-07-22 22:33:26,308 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:33:26,308 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:33:26,308 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:33:26,412 - root - INFO - Transformed Prediction: [['disgust']]
+2024-07-22 22:33:26,413 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:33:26] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:33:35,824 - root - INFO - File uploaded: toan_disgust_khaokhat.wav
+2024-07-22 22:33:35,825 - root - INFO - Audio loaded successfully: uploads/toan_disgust_khaokhat.wav, Sample rate: 22050, Length: 41765
+2024-07-22 22:33:35,830 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:33:35,830 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:33:35,831 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:33:35,927 - root - INFO - Transformed Prediction: [['disgust']]
+2024-07-22 22:33:35,928 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:33:35] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:33:51,390 - root - INFO - File uploaded: toan_disgust_nghi.wav
+2024-07-22 22:33:51,391 - root - INFO - Audio loaded successfully: uploads/toan_disgust_nghi.wav, Sample rate: 22050, Length: 41214
+2024-07-22 22:33:51,395 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:33:51,395 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:33:51,395 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:33:51,493 - root - INFO - Transformed Prediction: [['sad']]
+2024-07-22 22:33:51,494 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:33:51] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:33:59,065 - root - INFO - File uploaded: toan_disgust_nhavua.wav
+2024-07-22 22:33:59,066 - root - INFO - Audio loaded successfully: uploads/toan_disgust_nhavua.wav, Sample rate: 22050, Length: 41214
+2024-07-22 22:33:59,072 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:33:59,073 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:33:59,073 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:33:59,148 - root - INFO - Transformed Prediction: [['disgust']]
+2024-07-22 22:33:59,148 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:33:59] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:34:10,471 - root - INFO - File uploaded: toan_disgust_noichuyen.wav
+2024-07-22 22:34:10,471 - root - INFO - Audio loaded successfully: uploads/toan_disgust_noichuyen.wav, Sample rate: 22050, Length: 57193
+2024-07-22 22:34:10,476 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:34:10,477 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:34:10,477 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:34:10,603 - root - INFO - Transformed Prediction: [['sad']]
+2024-07-22 22:34:10,603 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:34:10] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:34:25,624 - root - INFO - File uploaded: toan_disgust_noidau.wav
+2024-07-22 22:34:25,625 - root - INFO - Audio loaded successfully: uploads/toan_disgust_noidau.wav, Sample rate: 22050, Length: 46173
+2024-07-22 22:34:25,631 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:34:25,632 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:34:25,632 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:34:25,788 - root - INFO - Transformed Prediction: [['fear']]
+2024-07-22 22:34:25,789 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:34:25] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:34:36,018 - root - INFO - File uploaded: toan_disgust_sanh.wav
+2024-07-22 22:34:36,019 - root - INFO - Audio loaded successfully: uploads/toan_disgust_sanh.wav, Sample rate: 22050, Length: 41214
+2024-07-22 22:34:36,024 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:34:36,024 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:34:36,025 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:34:36,148 - root - INFO - Transformed Prediction: [['sad']]
+2024-07-22 22:34:36,148 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:34:36] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:34:48,875 - root - INFO - File uploaded: toan_disgust_song.wav
+2024-07-22 22:34:48,876 - root - INFO - Audio loaded successfully: uploads/toan_disgust_song.wav, Sample rate: 22050, Length: 42867
+2024-07-22 22:34:48,881 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:34:48,882 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:34:48,882 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:34:49,015 - root - INFO - Transformed Prediction: [['sad']]
+2024-07-22 22:34:49,015 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:34:49] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:35:00,318 - root - INFO - File uploaded: toan_disgust_tapgiay.wav
+2024-07-22 22:35:00,319 - root - INFO - Audio loaded successfully: uploads/toan_disgust_tapgiay.wav, Sample rate: 22050, Length: 48377
+2024-07-22 22:35:00,323 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:35:00,324 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:35:00,324 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:35:00,430 - root - INFO - Transformed Prediction: [['sad']]
+2024-07-22 22:35:00,430 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:35:00] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:35:07,724 - root - INFO - File uploaded: toan_disgust_taxi.wav
+2024-07-22 22:35:07,725 - root - INFO - Audio loaded successfully: uploads/toan_disgust_taxi.wav, Sample rate: 22050, Length: 52234
+2024-07-22 22:35:07,730 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:35:07,731 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:35:07,731 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:35:07,846 - root - INFO - Transformed Prediction: [['sad']]
+2024-07-22 22:35:07,847 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:35:07] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:35:15,696 - root - INFO - File uploaded: toan_disgust_thamgia.wav
+2024-07-22 22:35:15,696 - root - INFO - Audio loaded successfully: uploads/toan_disgust_thamgia.wav, Sample rate: 22050, Length: 45071
+2024-07-22 22:35:15,701 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:35:15,701 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:35:15,701 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:35:15,813 - root - INFO - Transformed Prediction: [['fear']]
+2024-07-22 22:35:15,814 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:35:15] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:35:22,045 - root - INFO - File uploaded: toan_disgust_thatbai.wav
+2024-07-22 22:35:22,046 - root - INFO - Audio loaded successfully: uploads/toan_disgust_thatbai.wav, Sample rate: 22050, Length: 46724
+2024-07-22 22:35:22,051 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:35:22,051 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:35:22,052 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:35:22,196 - root - INFO - Transformed Prediction: [['sad']]
+2024-07-22 22:35:22,196 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:35:22] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:35:30,023 - root - INFO - File uploaded: duong_fear.wav
+2024-07-22 22:35:30,028 - root - INFO - Audio loaded successfully: uploads/duong_fear.wav, Sample rate: 44100, Length: 154292
+2024-07-22 22:35:30,038 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:35:30,039 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:35:30,039 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:35:30,166 - root - INFO - Transformed Prediction: [['disgust']]
+2024-07-22 22:35:30,167 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:35:30] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:35:37,813 - root - INFO - File uploaded: phi_fear.wav
+2024-07-22 22:35:37,818 - root - INFO - Audio loaded successfully: uploads/phi_fear.wav, Sample rate: 44100, Length: 213561
+2024-07-22 22:35:37,832 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:35:37,832 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:35:37,833 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:35:38,001 - root - INFO - Transformed Prediction: [['disgust']]
+2024-07-22 22:35:38,002 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:35:38] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:35:45,237 - root - INFO - File uploaded: tam_fear.wav
+2024-07-22 22:35:45,244 - root - INFO - Audio loaded successfully: uploads/tam_fear.wav, Sample rate: 44100, Length: 266247
+2024-07-22 22:35:45,259 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:35:45,260 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:35:45,260 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:35:45,373 - root - INFO - Transformed Prediction: [['disgust']]
+2024-07-22 22:35:45,373 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:35:45] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:35:53,999 - root - INFO - File uploaded: thoai_fear.wav
+2024-07-22 22:35:54,002 - root - INFO - Audio loaded successfully: uploads/thoai_fear.wav, Sample rate: 44100, Length: 137357
+2024-07-22 22:35:54,012 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:35:54,012 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:35:54,012 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:35:54,130 - root - INFO - Transformed Prediction: [['disgust']]
+2024-07-22 22:35:54,130 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:35:54] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:36:02,489 - root - INFO - File uploaded: duong_happy.wav
+2024-07-22 22:36:02,494 - root - INFO - Audio loaded successfully: uploads/duong_happy.wav, Sample rate: 44100, Length: 212621
+2024-07-22 22:36:02,506 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:36:02,507 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:36:02,507 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:36:02,620 - root - INFO - Transformed Prediction: [['disgust']]
+2024-07-22 22:36:02,621 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:36:02] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:36:14,980 - root - INFO - File uploaded: phi_happy.wav
+2024-07-22 22:36:14,986 - root - INFO - Audio loaded successfully: uploads/phi_happy.wav, Sample rate: 44100, Length: 223911
+2024-07-22 22:36:15,000 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:36:15,001 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:36:15,001 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:36:15,083 - root - INFO - Transformed Prediction: [['disgust']]
+2024-07-22 22:36:15,084 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:36:15] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:36:23,392 - root - INFO - File uploaded: tam_happy.wav
+2024-07-22 22:36:23,398 - root - INFO - Audio loaded successfully: uploads/tam_happy.wav, Sample rate: 44100, Length: 259661
+2024-07-22 22:36:23,413 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:36:23,414 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:36:23,414 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:36:23,545 - root - INFO - Transformed Prediction: [['disgust']]
+2024-07-22 22:36:23,546 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:36:23] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:36:23,941 - root - INFO - File uploaded: tam_happy.wav
+2024-07-22 22:36:23,946 - root - INFO - Audio loaded successfully: uploads/tam_happy.wav, Sample rate: 44100, Length: 259661
+2024-07-22 22:36:23,960 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:36:23,961 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:36:23,961 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:36:24,060 - root - INFO - Transformed Prediction: [['disgust']]
+2024-07-22 22:36:24,061 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:36:24] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:37:09,355 - root - INFO - File uploaded: thoai_happy.wav
+2024-07-22 22:37:09,359 - root - INFO - Audio loaded successfully: uploads/thoai_happy.wav, Sample rate: 44100, Length: 170285
+2024-07-22 22:37:09,375 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:37:09,375 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:37:09,375 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:37:09,498 - root - INFO - Transformed Prediction: [['disgust']]
+2024-07-22 22:37:09,498 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:37:09] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:37:23,314 - root - INFO - File uploaded: toan_happy_1.wav
+2024-07-22 22:37:23,315 - root - INFO - Audio loaded successfully: uploads/toan_happy_1.wav, Sample rate: 22050, Length: 202657
+2024-07-22 22:37:23,333 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:37:23,334 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:37:23,334 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:37:23,441 - root - INFO - Transformed Prediction: [['disgust']]
+2024-07-22 22:37:23,442 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:37:23] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:37:30,369 - root - INFO - File uploaded: toan_happy_2.wav
+2024-07-22 22:37:30,370 - root - INFO - Audio loaded successfully: uploads/toan_happy_2.wav, Sample rate: 22050, Length: 241778
+2024-07-22 22:37:30,386 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:37:30,387 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:37:30,387 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:37:30,498 - root - INFO - Transformed Prediction: [['disgust']]
+2024-07-22 22:37:30,499 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:37:30] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:37:37,453 - root - INFO - File uploaded: toan_happy_3.wav
+2024-07-22 22:37:37,455 - root - INFO - Audio loaded successfully: uploads/toan_happy_3.wav, Sample rate: 22050, Length: 228003
+2024-07-22 22:37:37,471 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:37:37,472 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:37:37,472 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:37:37,586 - root - INFO - Transformed Prediction: [['sad']]
+2024-07-22 22:37:37,587 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:37:37] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:37:49,780 - root - INFO - File uploaded: toan_happy_3.wav
+2024-07-22 22:37:49,781 - root - INFO - Audio loaded successfully: uploads/toan_happy_3.wav, Sample rate: 22050, Length: 228003
+2024-07-22 22:37:49,831 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:37:49,832 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:37:49,832 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:37:49,928 - root - INFO - Transformed Prediction: [['sad']]
+2024-07-22 22:37:49,928 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:37:49] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:38:04,205 - root - INFO - File uploaded: toan_happy_4.wav
+2024-07-22 22:38:04,207 - root - INFO - Audio loaded successfully: uploads/toan_happy_4.wav, Sample rate: 22050, Length: 259961
+2024-07-22 22:38:04,224 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:38:04,224 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:38:04,225 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:38:04,360 - root - INFO - Transformed Prediction: [['sad']]
+2024-07-22 22:38:04,360 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:38:04] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:38:13,060 - root - INFO - File uploaded: toan_happy_5.wav
+2024-07-22 22:38:13,062 - root - INFO - Audio loaded successfully: uploads/toan_happy_5.wav, Sample rate: 22050, Length: 286960
+2024-07-22 22:38:13,081 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:38:13,081 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:38:13,082 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:38:13,204 - root - INFO - Transformed Prediction: [['sad']]
+2024-07-22 22:38:13,204 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:38:13] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:38:21,523 - root - INFO - File uploaded: toan_happy_6.wav
+2024-07-22 22:38:21,525 - root - INFO - Audio loaded successfully: uploads/toan_happy_6.wav, Sample rate: 22050, Length: 260512
+2024-07-22 22:38:21,542 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:38:21,543 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:38:21,543 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:38:21,643 - root - INFO - Transformed Prediction: [['sad']]
+2024-07-22 22:38:21,644 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:38:21] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:38:28,661 - root - INFO - File uploaded: toan_happy_7.wav
+2024-07-22 22:38:28,662 - root - INFO - Audio loaded successfully: uploads/toan_happy_7.wav, Sample rate: 22050, Length: 319469
+2024-07-22 22:38:28,681 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:38:28,682 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:38:28,682 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:38:28,809 - root - INFO - Transformed Prediction: [['sad']]
+2024-07-22 22:38:28,809 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:38:28] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:38:37,670 - root - INFO - File uploaded: toan_happy_8.wav
+2024-07-22 22:38:37,672 - root - INFO - Audio loaded successfully: uploads/toan_happy_8.wav, Sample rate: 22050, Length: 301286
+2024-07-22 22:38:37,693 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:38:37,693 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:38:37,694 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:38:37,776 - root - INFO - Transformed Prediction: [['sad']]
+2024-07-22 22:38:37,777 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:38:37] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:38:45,318 - root - INFO - File uploaded: toan_happy_9.wav
+2024-07-22 22:38:45,320 - root - INFO - Audio loaded successfully: uploads/toan_happy_9.wav, Sample rate: 22050, Length: 264920
+2024-07-22 22:38:45,338 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:38:45,339 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:38:45,339 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:38:45,445 - root - INFO - Transformed Prediction: [['sad']]
+2024-07-22 22:38:45,446 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:38:45] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:38:54,260 - root - INFO - File uploaded: toan_happy_10.wav
+2024-07-22 22:38:54,261 - root - INFO - Audio loaded successfully: uploads/toan_happy_10.wav, Sample rate: 22050, Length: 307898
+2024-07-22 22:38:54,282 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:38:54,282 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:38:54,282 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:38:54,383 - root - INFO - Transformed Prediction: [['sad']]
+2024-07-22 22:38:54,384 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:38:54] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:39:01,369 - root - INFO - File uploaded: duong_neutral.wav
+2024-07-22 22:39:01,374 - root - INFO - Audio loaded successfully: uploads/duong_neutral.wav, Sample rate: 44100, Length: 193805
+2024-07-22 22:39:01,387 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:39:01,388 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:39:01,388 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:39:01,514 - root - INFO - Transformed Prediction: [['disgust']]
+2024-07-22 22:39:01,514 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:39:01] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:39:08,314 - root - INFO - File uploaded: phi_neutral.wav
+2024-07-22 22:39:08,320 - root - INFO - Audio loaded successfully: uploads/phi_neutral.wav, Sample rate: 44100, Length: 222969
+2024-07-22 22:39:08,337 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:39:08,337 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:39:08,338 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:39:08,468 - root - INFO - Transformed Prediction: [['disgust']]
+2024-07-22 22:39:08,468 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:39:08] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:39:17,470 - root - INFO - File uploaded: tam_neutral.wav
+2024-07-22 22:39:17,482 - root - INFO - Audio loaded successfully: uploads/tam_neutral.wav, Sample rate: 44100, Length: 473223
+2024-07-22 22:39:17,509 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:39:17,509 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:39:17,510 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:39:17,613 - root - INFO - Transformed Prediction: [['disgust']]
+2024-07-22 22:39:17,615 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:39:17] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:39:24,594 - root - INFO - File uploaded: thoai_neutral.wav
+2024-07-22 22:39:24,598 - root - INFO - Audio loaded successfully: uploads/thoai_neutral.wav, Sample rate: 44100, Length: 126068
+2024-07-22 22:39:24,608 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:39:24,610 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:39:24,610 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:39:24,698 - root - INFO - Transformed Prediction: [['disgust']]
+2024-07-22 22:39:24,698 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:39:24] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:39:38,327 - root - INFO - File uploaded: toan_neutral_1.wav
+2024-07-22 22:39:38,328 - root - INFO - Audio loaded successfully: uploads/toan_neutral_1.wav, Sample rate: 22050, Length: 90253
+2024-07-22 22:39:38,336 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:39:38,336 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:39:38,336 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:39:38,446 - root - INFO - Transformed Prediction: [['disgust']]
+2024-07-22 22:39:38,447 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:39:38] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:39:47,957 - root - INFO - File uploaded: toan_neutral_2.wav
+2024-07-22 22:39:47,958 - root - INFO - Audio loaded successfully: uploads/toan_neutral_2.wav, Sample rate: 22050, Length: 98518
+2024-07-22 22:39:47,968 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:39:47,968 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:39:47,968 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:39:48,085 - root - INFO - Transformed Prediction: [['disgust']]
+2024-07-22 22:39:48,085 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:39:48] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:39:56,623 - root - INFO - File uploaded: toan_neutral_3.wav
+2024-07-22 22:39:56,624 - root - INFO - Audio loaded successfully: uploads/toan_neutral_3.wav, Sample rate: 22050, Length: 96865
+2024-07-22 22:39:56,633 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:39:56,633 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:39:56,633 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:39:56,761 - root - INFO - Transformed Prediction: [['disgust']]
+2024-07-22 22:39:56,761 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:39:56] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:40:03,415 - root - INFO - File uploaded: toan_neutral_4.wav
+2024-07-22 22:40:03,415 - root - INFO - Audio loaded successfully: uploads/toan_neutral_4.wav, Sample rate: 22050, Length: 66009
+2024-07-22 22:40:03,421 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:40:03,421 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:40:03,422 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:40:03,528 - root - INFO - Transformed Prediction: [['disgust']]
+2024-07-22 22:40:03,529 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:40:03] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:40:10,084 - root - INFO - File uploaded: toan_neutral_5.wav
+2024-07-22 22:40:10,085 - root - INFO - Audio loaded successfully: uploads/toan_neutral_5.wav, Sample rate: 22050, Length: 42316
+2024-07-22 22:40:10,090 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:40:10,091 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:40:10,091 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:40:10,221 - root - INFO - Transformed Prediction: [['sad']]
+2024-07-22 22:40:10,221 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:40:10] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:40:18,291 - root - INFO - File uploaded: toan_neutral_6.wav
+2024-07-22 22:40:18,291 - root - INFO - Audio loaded successfully: uploads/toan_neutral_6.wav, Sample rate: 22050, Length: 42867
+2024-07-22 22:40:18,297 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:40:18,298 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:40:18,298 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:40:18,406 - root - INFO - Transformed Prediction: [['sad']]
+2024-07-22 22:40:18,406 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:40:18] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:40:26,251 - root - INFO - File uploaded: toan_neutral_7.wav
+2024-07-22 22:40:26,251 - root - INFO - Audio loaded successfully: uploads/toan_neutral_7.wav, Sample rate: 22050, Length: 43418
+2024-07-22 22:40:26,257 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:40:26,258 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:40:26,258 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:40:26,385 - root - INFO - Transformed Prediction: [['sad']]
+2024-07-22 22:40:26,385 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:40:26] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:40:33,343 - root - INFO - File uploaded: toan_neutral_8.wav
+2024-07-22 22:40:33,343 - root - INFO - Audio loaded successfully: uploads/toan_neutral_8.wav, Sample rate: 22050, Length: 55540
+2024-07-22 22:40:33,356 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:40:33,356 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:40:33,357 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:40:33,463 - root - INFO - Transformed Prediction: [['sad']]
+2024-07-22 22:40:33,465 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:40:33] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:40:40,223 - root - INFO - File uploaded: toan_neutral_9.wav
+2024-07-22 22:40:40,224 - root - INFO - Audio loaded successfully: uploads/toan_neutral_9.wav, Sample rate: 22050, Length: 47826
+2024-07-22 22:40:40,229 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:40:40,229 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:40:40,229 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:40:40,336 - root - INFO - Transformed Prediction: [['sad']]
+2024-07-22 22:40:40,337 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:40:40] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:40:46,539 - root - INFO - File uploaded: toan_neutral_10.wav
+2024-07-22 22:40:46,540 - root - INFO - Audio loaded successfully: uploads/toan_neutral_10.wav, Sample rate: 22050, Length: 61050
+2024-07-22 22:40:46,545 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:40:46,546 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:40:46,546 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:40:46,650 - root - INFO - Transformed Prediction: [['sad']]
+2024-07-22 22:40:46,651 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:40:46] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:41:01,075 - root - INFO - File uploaded: duong_sad.wav
+2024-07-22 22:41:01,081 - root - INFO - Audio loaded successfully: uploads/duong_sad.wav, Sample rate: 44100, Length: 227673
+2024-07-22 22:41:01,096 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:41:01,096 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:41:01,096 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:41:01,200 - root - INFO - Transformed Prediction: [['disgust']]
+2024-07-22 22:41:01,201 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:41:01] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:41:07,566 - root - INFO - File uploaded: phi_sad.wav
+2024-07-22 22:41:07,571 - root - INFO - Audio loaded successfully: uploads/phi_sad.wav, Sample rate: 44100, Length: 245549
+2024-07-22 22:41:07,587 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:41:07,587 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:41:07,588 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:41:07,690 - root - INFO - Transformed Prediction: [['disgust']]
+2024-07-22 22:41:07,691 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:41:07] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:41:16,238 - root - INFO - File uploaded: tam_sad.wav
+2024-07-22 22:41:16,245 - root - INFO - Audio loaded successfully: uploads/tam_sad.wav, Sample rate: 44100, Length: 284121
+2024-07-22 22:41:16,266 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:41:16,268 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:41:16,269 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:41:16,380 - root - INFO - Transformed Prediction: [['disgust']]
+2024-07-22 22:41:16,381 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:41:16] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:41:31,182 - root - INFO - File uploaded: thoai_sad.wav
+2024-07-22 22:41:31,187 - root - INFO - Audio loaded successfully: uploads/thoai_sad.wav, Sample rate: 44100, Length: 163700
+2024-07-22 22:41:31,203 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:41:31,204 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:41:31,204 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:41:31,326 - root - INFO - Transformed Prediction: [['disgust']]
+2024-07-22 22:41:31,326 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:41:31] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:41:39,075 - root - INFO - File uploaded: toan_sad_1.wav
+2024-07-22 22:41:39,076 - root - INFO - Audio loaded successfully: uploads/toan_sad_1.wav, Sample rate: 22050, Length: 270981
+2024-07-22 22:41:39,092 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:41:39,092 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:41:39,093 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:41:39,205 - root - INFO - Transformed Prediction: [['sad']]
+2024-07-22 22:41:39,206 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:41:39] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:41:47,706 - root - INFO - File uploaded: toan_sad_2.wav
+2024-07-22 22:41:47,707 - root - INFO - Audio loaded successfully: uploads/toan_sad_2.wav, Sample rate: 22050, Length: 250594
+2024-07-22 22:41:47,723 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:41:47,723 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:41:47,723 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:41:47,836 - root - INFO - Transformed Prediction: [['sad']]
+2024-07-22 22:41:47,837 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:41:47] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:42:01,614 - root - INFO - File uploaded: toan_sad_3.wav
+2024-07-22 22:42:01,615 - root - INFO - Audio loaded successfully: uploads/toan_sad_3.wav, Sample rate: 22050, Length: 180617
+2024-07-22 22:42:01,630 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:42:01,630 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:42:01,630 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:42:01,733 - root - INFO - Transformed Prediction: [['sad']]
+2024-07-22 22:42:01,734 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:42:01] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:42:11,866 - root - INFO - File uploaded: toan_sad_4.wav
+2024-07-22 22:42:11,868 - root - INFO - Audio loaded successfully: uploads/toan_sad_4.wav, Sample rate: 22050, Length: 228003
+2024-07-22 22:42:11,883 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:42:11,883 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:42:11,883 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:42:11,980 - root - INFO - Transformed Prediction: [['disgust']]
+2024-07-22 22:42:11,980 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:42:11] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:42:21,653 - root - INFO - File uploaded: toan_sad_5.wav
+2024-07-22 22:42:21,654 - root - INFO - Audio loaded successfully: uploads/toan_sad_5.wav, Sample rate: 22050, Length: 250043
+2024-07-22 22:42:21,671 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:42:21,672 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:42:21,672 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:42:21,782 - root - INFO - Transformed Prediction: [['sad']]
+2024-07-22 22:42:21,783 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:42:21] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:42:29,640 - root - INFO - File uploaded: toan_sad_6.wav
+2024-07-22 22:42:29,643 - root - INFO - Audio loaded successfully: uploads/toan_sad_6.wav, Sample rate: 22050, Length: 358299
+2024-07-22 22:42:29,665 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:42:29,670 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:42:29,670 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:42:29,794 - root - INFO - Transformed Prediction: [['sad']]
+2024-07-22 22:42:29,795 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:42:29] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:42:39,095 - root - INFO - File uploaded: toan_sad_7.wav
+2024-07-22 22:42:39,096 - root - INFO - Audio loaded successfully: uploads/toan_sad_7.wav, Sample rate: 22050, Length: 180617
+2024-07-22 22:42:39,114 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:42:39,114 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:42:39,115 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:42:39,219 - root - INFO - Transformed Prediction: [['sad']]
+2024-07-22 22:42:39,220 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:42:39] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:42:49,863 - root - INFO - File uploaded: toan_sad_8.wav
+2024-07-22 22:42:49,865 - root - INFO - Audio loaded successfully: uploads/toan_sad_8.wav, Sample rate: 22050, Length: 253349
+2024-07-22 22:42:49,882 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:42:49,882 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:42:49,883 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:42:50,000 - root - INFO - Transformed Prediction: [['sad']]
+2024-07-22 22:42:50,000 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:42:50] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:42:57,933 - root - INFO - File uploaded: toan_sad_9.wav
+2024-07-22 22:42:57,934 - root - INFO - Audio loaded successfully: uploads/toan_sad_9.wav, Sample rate: 22050, Length: 219738
+2024-07-22 22:42:57,951 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:42:57,951 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:42:57,952 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:42:58,088 - root - INFO - Transformed Prediction: [['sad']]
+2024-07-22 22:42:58,088 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:42:58] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:43:06,018 - root - INFO - File uploaded: toan_sad_10.wav
+2024-07-22 22:43:06,019 - root - INFO - Audio loaded successfully: uploads/toan_sad_10.wav, Sample rate: 22050, Length: 167393
+2024-07-22 22:43:06,030 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:43:06,031 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:43:06,031 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:43:06,137 - root - INFO - Transformed Prediction: [['disgust']]
+2024-07-22 22:43:06,138 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:43:06] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:43:11,388 - root - INFO - File uploaded: duong_surprise.wav
+2024-07-22 22:43:11,393 - root - INFO - Audio loaded successfully: uploads/duong_surprise.wav, Sample rate: 44100, Length: 158055
+2024-07-22 22:43:11,406 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:43:11,406 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:43:11,406 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:43:11,519 - root - INFO - Transformed Prediction: [['disgust']]
+2024-07-22 22:43:11,520 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:43:11] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:43:19,826 - root - INFO - File uploaded: phi_surprise.wav
+2024-07-22 22:43:19,830 - root - INFO - Audio loaded successfully: uploads/phi_surprise.wav, Sample rate: 44100, Length: 143001
+2024-07-22 22:43:19,842 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:43:19,843 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:43:19,843 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:43:19,953 - root - INFO - Transformed Prediction: [['disgust']]
+2024-07-22 22:43:19,954 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:43:19] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:43:26,511 - root - INFO - File uploaded: tam_surprise.wav
+2024-07-22 22:43:26,517 - root - INFO - Audio loaded successfully: uploads/tam_surprise.wav, Sample rate: 44100, Length: 255897
+2024-07-22 22:43:26,533 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:43:26,534 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:43:26,534 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:43:26,637 - root - INFO - Transformed Prediction: [['disgust']]
+2024-07-22 22:43:26,639 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:43:26] "POST /upload HTTP/1.1" 200 -
+2024-07-22 22:43:35,628 - root - INFO - File uploaded: thoai_surprise.wav
+2024-07-22 22:43:35,632 - root - INFO - Audio loaded successfully: uploads/thoai_surprise.wav, Sample rate: 44100, Length: 147705
+2024-07-22 22:43:35,647 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-22 22:43:35,647 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-22 22:43:35,647 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-22 22:43:35,782 - root - INFO - Transformed Prediction: [['disgust']]
+2024-07-22 22:43:35,782 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 22:43:35] "POST /upload HTTP/1.1" 200 -
