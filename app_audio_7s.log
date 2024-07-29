@@ -1,0 +1,131 @@
+2024-07-29 23:01:38,703 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-29 23:01:38,703 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-07-29 23:01:43,991 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2024 23:01:43] "GET / HTTP/1.1" 200 -
+2024-07-29 23:01:51,019 - root - INFO - File uploaded: YAF_life_angry.wav
+2024-07-29 23:01:51,986 - root - INFO - Audio loaded successfully: uploads/YAF_life_angry.wav, Sample rate: 24414, Length: 49817
+2024-07-29 23:01:52,012 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-29 23:01:52,014 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-29 23:01:52,014 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-29 23:01:53,000 - root - INFO - Transformed Prediction: [['angry']]
+2024-07-29 23:01:53,000 - root - INFO - File uploaded: YAF_lid_angry.wav
+2024-07-29 23:01:53,001 - root - INFO - Audio loaded successfully: uploads/YAF_lid_angry.wav, Sample rate: 24414, Length: 51855
+2024-07-29 23:01:53,012 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-29 23:01:53,013 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-29 23:01:53,013 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-29 23:01:53,119 - root - INFO - Transformed Prediction: [['angry']]
+2024-07-29 23:01:53,120 - root - INFO - File uploaded: YAF_lease_angry.wav
+2024-07-29 23:01:53,123 - root - INFO - Audio loaded successfully: uploads/YAF_lease_angry.wav, Sample rate: 24414, Length: 55413
+2024-07-29 23:01:53,133 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-29 23:01:53,135 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-29 23:01:53,136 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-29 23:01:53,251 - root - INFO - Transformed Prediction: [['angry']]
+2024-07-29 23:01:53,251 - root - INFO - File uploaded: YAF_learn_angry.wav
+2024-07-29 23:01:53,252 - root - INFO - Audio loaded successfully: uploads/YAF_learn_angry.wav, Sample rate: 24414, Length: 55554
+2024-07-29 23:01:53,259 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-29 23:01:53,259 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-29 23:01:53,260 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-29 23:01:53,360 - root - INFO - Transformed Prediction: [['angry']]
+2024-07-29 23:01:53,361 - root - INFO - File uploaded: YAF_lean_angry.wav
+2024-07-29 23:01:53,362 - root - INFO - Audio loaded successfully: uploads/YAF_lean_angry.wav, Sample rate: 24414, Length: 55098
+2024-07-29 23:01:53,375 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-29 23:01:53,376 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-29 23:01:53,376 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-29 23:01:53,497 - root - INFO - Transformed Prediction: [['angry']]
+2024-07-29 23:01:53,497 - root - INFO - File uploaded: YAF_laud_angry.wav
+2024-07-29 23:01:53,498 - root - INFO - Audio loaded successfully: uploads/YAF_laud_angry.wav, Sample rate: 24414, Length: 43483
+2024-07-29 23:01:53,502 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-29 23:01:53,502 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-29 23:01:53,502 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-29 23:01:53,628 - root - INFO - Transformed Prediction: [['angry']]
+2024-07-29 23:01:53,629 - root - INFO - File uploaded: YAF_late_angry.wav
+2024-07-29 23:01:53,629 - root - INFO - Audio loaded successfully: uploads/YAF_late_angry.wav, Sample rate: 24414, Length: 51382
+2024-07-29 23:01:53,634 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-29 23:01:53,635 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-29 23:01:53,635 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-29 23:01:53,740 - root - INFO - Transformed Prediction: [['angry']]
+2024-07-29 23:01:53,740 - root - INFO - File uploaded: YAF_knock_angry.wav
+2024-07-29 23:01:53,742 - root - INFO - Audio loaded successfully: uploads/YAF_knock_angry.wav, Sample rate: 24414, Length: 49022
+2024-07-29 23:01:53,755 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-29 23:01:53,756 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-29 23:01:53,756 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-29 23:01:53,866 - root - INFO - Transformed Prediction: [['angry']]
+2024-07-29 23:01:53,867 - root - INFO - File uploaded: YAF_kite_angry.wav
+2024-07-29 23:01:53,868 - root - INFO - Audio loaded successfully: uploads/YAF_kite_angry.wav, Sample rate: 24414, Length: 48750
+2024-07-29 23:01:53,879 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-29 23:01:53,882 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-29 23:01:53,882 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-29 23:01:53,989 - root - INFO - Transformed Prediction: [['angry']]
+2024-07-29 23:01:53,989 - root - INFO - File uploaded: YAF_king_angry.wav
+2024-07-29 23:01:53,990 - root - INFO - Audio loaded successfully: uploads/YAF_king_angry.wav, Sample rate: 24414, Length: 46312
+2024-07-29 23:01:53,998 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-29 23:01:53,999 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-29 23:01:53,999 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-29 23:01:54,102 - root - INFO - Transformed Prediction: [['angry']]
+2024-07-29 23:01:54,103 - root - INFO - File uploaded: YAF_kill_angry.wav
+2024-07-29 23:01:54,106 - root - INFO - Audio loaded successfully: uploads/YAF_kill_angry.wav, Sample rate: 24414, Length: 49120
+2024-07-29 23:01:54,123 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-29 23:01:54,125 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-29 23:01:54,126 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-29 23:01:54,239 - root - INFO - Transformed Prediction: [['angry']]
+2024-07-29 23:01:54,240 - root - INFO - File uploaded: YAF_kick_angry.wav
+2024-07-29 23:01:54,240 - root - INFO - Audio loaded successfully: uploads/YAF_kick_angry.wav, Sample rate: 24414, Length: 51734
+2024-07-29 23:01:54,247 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-29 23:01:54,247 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-29 23:01:54,247 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-29 23:01:54,351 - root - INFO - Transformed Prediction: [['angry']]
+2024-07-29 23:01:54,352 - root - INFO - File uploaded: YAF_keg_angry.wav
+2024-07-29 23:01:54,353 - root - INFO - Audio loaded successfully: uploads/YAF_keg_angry.wav, Sample rate: 24414, Length: 55138
+2024-07-29 23:01:54,365 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-29 23:01:54,367 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-29 23:01:54,367 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-29 23:01:54,472 - root - INFO - Transformed Prediction: [['angry']]
+2024-07-29 23:01:54,473 - root - INFO - File uploaded: YAF_keep_angry.wav
+2024-07-29 23:01:54,475 - root - INFO - Audio loaded successfully: uploads/YAF_keep_angry.wav, Sample rate: 24414, Length: 54236
+2024-07-29 23:01:54,485 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-29 23:01:54,486 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-29 23:01:54,487 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-29 23:01:54,590 - root - INFO - Transformed Prediction: [['angry']]
+2024-07-29 23:01:54,592 - root - INFO - File uploaded: YAF_keen_angry.wav
+2024-07-29 23:01:54,594 - root - INFO - Audio loaded successfully: uploads/YAF_keen_angry.wav, Sample rate: 24414, Length: 47580
+2024-07-29 23:01:54,606 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-29 23:01:54,607 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-29 23:01:54,607 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-29 23:01:54,712 - root - INFO - Transformed Prediction: [['angry']]
+2024-07-29 23:01:54,713 - root - INFO - File uploaded: YAF_juice_angry.wav
+2024-07-29 23:01:54,715 - root - INFO - Audio loaded successfully: uploads/YAF_juice_angry.wav, Sample rate: 24414, Length: 53894
+2024-07-29 23:01:54,726 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-29 23:01:54,727 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-29 23:01:54,728 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-29 23:01:54,843 - root - INFO - Transformed Prediction: [['angry']]
+2024-07-29 23:01:54,844 - root - INFO - File uploaded: YAF_jug_angry.wav
+2024-07-29 23:01:54,844 - root - INFO - Audio loaded successfully: uploads/YAF_jug_angry.wav, Sample rate: 24414, Length: 50749
+2024-07-29 23:01:54,851 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-29 23:01:54,853 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-29 23:01:54,853 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-29 23:01:54,968 - root - INFO - Transformed Prediction: [['angry']]
+2024-07-29 23:01:54,968 - root - INFO - File uploaded: YAF_judge_angry.wav
+2024-07-29 23:01:54,969 - root - INFO - Audio loaded successfully: uploads/YAF_judge_angry.wav, Sample rate: 24414, Length: 57220
+2024-07-29 23:01:54,975 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-29 23:01:54,976 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-29 23:01:54,976 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-29 23:01:55,105 - root - INFO - Transformed Prediction: [['angry']]
+2024-07-29 23:01:55,105 - root - INFO - File uploaded: YAF_join_angry.wav
+2024-07-29 23:01:55,106 - root - INFO - Audio loaded successfully: uploads/YAF_join_angry.wav, Sample rate: 24414, Length: 52371
+2024-07-29 23:01:55,111 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-29 23:01:55,112 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-29 23:01:55,112 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-29 23:01:55,227 - root - INFO - Transformed Prediction: [['surprise']]
+2024-07-29 23:01:55,227 - root - INFO - File uploaded: YAF_jar_angry.wav
+2024-07-29 23:01:55,228 - root - INFO - Audio loaded successfully: uploads/YAF_jar_angry.wav, Sample rate: 24414, Length: 48989
+2024-07-29 23:01:55,233 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-29 23:01:55,234 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-29 23:01:55,234 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-29 23:01:55,346 - root - INFO - Transformed Prediction: [['angry']]
+2024-07-29 23:01:55,347 - root - INFO - File uploaded: YAF_jail_angry.wav
+2024-07-29 23:01:55,348 - root - INFO - Audio loaded successfully: uploads/YAF_jail_angry.wav, Sample rate: 24414, Length: 48114
+2024-07-29 23:01:55,360 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-29 23:01:55,361 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-29 23:01:55,362 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-29 23:01:55,467 - root - INFO - Transformed Prediction: [['angry']]
+2024-07-29 23:01:55,468 - werkzeug - INFO - 127.0.0.1 - - [29/Jul/2024 23:01:55] "POST /upload HTTP/1.1" 200 -

@@ -1787,3 +1787,73 @@
 2024-07-22 14:30:27,656 - root - INFO - Emotion counts: Counter({'surprise': 79, 'happy': 66, 'disgust': 52, 'neutral': 30, 'sad': 28, 'angry': 27, 'fear': 7})
 2024-07-22 14:30:27,656 - root - INFO - Emotion detected: surprise
 2024-07-22 14:30:27,656 - werkzeug - INFO - 127.0.0.1 - - [22/Jul/2024 14:30:27] "POST /upload HTTP/1.1" 200 -
+2024-07-24 09:29:13,475 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-24 09:29:13,475 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-07-24 09:29:22,340 - werkzeug - INFO - 127.0.0.1 - - [24/Jul/2024 09:29:22] "GET / HTTP/1.1" 200 -
+2024-07-24 09:29:22,422 - werkzeug - INFO - 127.0.0.1 - - [24/Jul/2024 09:29:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-07-24 09:31:53,686 - root - INFO - File uploaded: buon5s.wav
+2024-07-24 09:31:54,891 - root - INFO - Audio loaded successfully: uploads/buon5s.wav, Sample rate: 44100, Length: 238964
+2024-07-24 09:31:54,933 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-24 09:31:54,934 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-24 09:31:54,934 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-24 09:31:56,964 - root - INFO - Transformed Prediction: [['sad']]
+2024-07-24 09:31:56,965 - werkzeug - INFO - 127.0.0.1 - - [24/Jul/2024 09:31:56] "POST /upload HTTP/1.1" 200 -
+2024-07-24 09:32:05,204 - root - INFO - File uploaded: buon7s.wav
+2024-07-24 09:32:05,211 - root - INFO - Audio loaded successfully: uploads/buon7s.wav, Sample rate: 44100, Length: 304820
+2024-07-24 09:32:05,236 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-24 09:32:05,237 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-24 09:32:05,237 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-24 09:32:05,346 - root - INFO - Transformed Prediction: [['disgust']]
+2024-07-24 09:32:05,347 - werkzeug - INFO - 127.0.0.1 - - [24/Jul/2024 09:32:05] "POST /upload HTTP/1.1" 200 -
+2024-07-24 09:32:13,350 - root - INFO - File uploaded: buon10s.wav
+2024-07-24 09:32:13,361 - root - INFO - Audio loaded successfully: uploads/buon10s.wav, Sample rate: 44100, Length: 476985
+2024-07-24 09:32:13,391 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-24 09:32:13,392 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-24 09:32:13,392 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-24 09:32:13,494 - root - INFO - Transformed Prediction: [['sad']]
+2024-07-24 09:32:13,496 - werkzeug - INFO - 127.0.0.1 - - [24/Jul/2024 09:32:13] "POST /upload HTTP/1.1" 200 -
+2024-07-24 09:35:20,145 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-24 09:35:20,145 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-07-24 09:35:25,796 - werkzeug - INFO - 127.0.0.1 - - [24/Jul/2024 09:35:25] "GET / HTTP/1.1" 200 -
+2024-07-24 09:35:37,057 - root - INFO - File uploaded: OAF_bite_angry.wav
+2024-07-24 09:35:38,065 - root - INFO - Audio loaded successfully: uploads/OAF_bite_angry.wav, Sample rate: 24414, Length: 34927
+2024-07-24 09:35:38,095 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-24 09:35:38,096 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-24 09:35:38,096 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-24 09:35:39,101 - root - INFO - Transformed Prediction: [['angry']]
+2024-07-24 09:35:39,102 - werkzeug - INFO - 127.0.0.1 - - [24/Jul/2024 09:35:39] "POST /upload HTTP/1.1" 200 -
+2024-07-24 09:37:28,953 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-24 09:37:28,953 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-07-24 09:37:30,711 - werkzeug - INFO - 127.0.0.1 - - [24/Jul/2024 09:37:30] "GET / HTTP/1.1" 200 -
+2024-07-24 09:40:41,730 - root - INFO - File uploaded: OAF_bite_sad.wav
+2024-07-24 09:40:42,746 - root - INFO - Audio loaded successfully: uploads/OAF_bite_sad.wav, Sample rate: 24414, Length: 67820
+2024-07-24 09:40:42,778 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-24 09:40:42,779 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-24 09:40:42,779 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-24 09:40:43,763 - root - INFO - Transformed Prediction: [['sad']]
+2024-07-24 09:40:43,764 - werkzeug - INFO - 127.0.0.1 - - [24/Jul/2024 09:40:43] "POST /upload HTTP/1.1" 200 -
+2024-07-24 09:41:41,265 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-24 09:41:41,265 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-07-24 09:41:42,454 - werkzeug - INFO - 127.0.0.1 - - [24/Jul/2024 09:41:42] "GET / HTTP/1.1" 200 -
+2024-07-24 09:41:49,741 - root - INFO - File uploaded: OAF_bath_happy.wav
+2024-07-24 09:41:50,719 - root - INFO - Audio loaded successfully: uploads/OAF_bath_happy.wav, Sample rate: 24414, Length: 49684
+2024-07-24 09:41:50,747 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-24 09:41:50,748 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-24 09:41:50,748 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-24 09:41:51,772 - root - INFO - Transformed Prediction: [['surprise']]
+2024-07-24 09:41:51,772 - werkzeug - INFO - 127.0.0.1 - - [24/Jul/2024 09:41:51] "POST /upload HTTP/1.1" 200 -
+2024-07-24 09:42:16,936 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-07-24 09:42:16,936 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-07-24 09:42:19,240 - werkzeug - INFO - 127.0.0.1 - - [24/Jul/2024 09:42:19] "GET / HTTP/1.1" 200 -
+2024-07-24 09:42:26,080 - root - INFO - File uploaded: OAF_bite_sad.wav
+2024-07-24 09:42:27,050 - root - INFO - Audio loaded successfully: uploads/OAF_bite_sad.wav, Sample rate: 24414, Length: 67820
+2024-07-24 09:42:27,077 - root - INFO - MFCC extracted successfully: Shape: (39,)
+2024-07-24 09:42:27,078 - root - INFO - MFCC scaled successfully: Shape: (1, 39)
+2024-07-24 09:42:27,079 - root - INFO - MFCC expanded successfully: Shape: (1, 39, 1)
+2024-07-24 09:42:28,082 - root - INFO - Transformed Prediction: [['sad']]
+2024-07-24 09:42:28,083 - werkzeug - INFO - 127.0.0.1 - - [24/Jul/2024 09:42:28] "POST /upload HTTP/1.1" 200 -

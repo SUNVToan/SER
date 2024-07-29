@@ -4,20 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emotion Recognition</title>
+    <style>
+        h1 {
+            text-align: center;
+            color: blue;
+        }
+
+        form {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        #file-input {
+            margin-right: 10px;
+        }
+
+        button {
+            padding: 5px 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        #result {
+            text-align: center;
+            margin-top: 20px;
+            color: rgb(209, 110, 28);
+            font-size: 25px;
+            font-weight: bold;
+        }
+
+        table {
+            margin: auto;
+            margin-top: 20px;
+            border-collapse: collapse;
+            width: 80%;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
     <h1>Emotion Recognition from Speech</h1>
     <form id="upload-form" enctype="multipart/form-data">
-        <input type="file" id="file-input" name="file" accept="audio/*">
+        <input type="file" id="file-input" name="file[]" accept="audio/*" multiple>
         <button type="button" onclick="uploadFile()">Upload</button>
     </form>
     <div id="result"></div>
-
+    <table id="file-table">
+        <thead>
+            <tr>
+                <th>File</th>
+                <th>Audio Path</th>
+                <th>MFCC Shape</th>
+                <th>Emotion Detected</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <div style="text-align: center; margin-top: 20px;">
+        <button onclick="exportToExcel()">Export to Excel</button>
+    </div>
     <script>
         function uploadFile() {
             var formData = new FormData();
             var fileInput = document.getElementById('file-input');
-            formData.append('file', fileInput.files[0]);
+            
+            for (var i = 0; i < fileInput.files.length; i++) {
+                formData.append('files[]', fileInput.files[i]);
+            }
 
             fetch('/upload', {
                 method: 'POST',
@@ -25,11 +94,64 @@
             })
             .then(response => response.json())
             .then(data => {
-                document.getElementById('result').innerText = 'Emotion: ' + data.emotion;
+                var resultText = 'Emotions: ' + data.emotions.join(', ');
+                document.getElementById('result').innerText = resultText;
+
+                var tableBody = document.querySelector('#file-table tbody');
+                tableBody.innerHTML = ''; // Clear existing table data
+
+                data.file_details.forEach(detail => {
+                    var row = document.createElement('tr');
+                    
+                    var fileNameCell = document.createElement('td');
+                    fileNameCell.innerText = detail.file;
+                    row.appendChild(fileNameCell);
+                    
+                    var audioPathCell = document.createElement('td');
+                    audioPathCell.innerText = detail.audio_path;
+                    row.appendChild(audioPathCell);
+                    
+                    var mfccShapeCell = document.createElement('td');
+                    mfccShapeCell.innerText = detail.mfcc_shape;
+                    row.appendChild(mfccShapeCell);
+                    
+                    var emotionCell = document.createElement('td');
+                    emotionCell.innerText = detail.emotion_detected;
+                    row.appendChild(emotionCell);
+
+                    tableBody.appendChild(row);
+                });
             })
             .catch(error => {
                 console.error('Error:', error);
             });
+        }
+
+        function exportToExcel() {
+            var table = document.getElementById('file-table');
+            var rows = table.rows;
+            var csvContent = '';
+
+            for (var i = 0; i < rows.length; i++) {
+                var row = rows[i];
+                var cols = row.querySelectorAll('td, th');
+                var rowData = [];
+
+                for (var j = 0; j < cols.length; j++) {
+                    rowData.push(cols[j].innerText);
+                }
+
+                csvContent += rowData.join(',') + '\n';
+            }
+
+            var blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+            var link = document.createElement('a');
+            link.href = URL.createObjectURL(blob);
+            link.download = 'file_details.csv';
+            link.style.display = 'none';
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
         }
     </script>
 </body>
