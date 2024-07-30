@@ -30,13 +30,13 @@ def allowed_file(filename):
 os.makedirs(app.config["UPLOAD_FOLDER"], exist_ok=True)
 
 # Load the encoder
-encoder = joblib.load("encoder.joblib")
+encoder = joblib.load("encoder_cremad.joblib")
 
 # Tải scaler đã lưu
-scaler = joblib.load("scaler.joblib")
+scaler = joblib.load("scaler_cremad.joblib")
 
 # Load mô hình đã huấn luyện
-model = load_model("model_1.h5")
+model = load_model("model_cremad.h5")
 
 
 # Hàm xử lý file âm thanh và trích xuất đặc trưng MFCC
@@ -52,7 +52,7 @@ def process_audio(file_path):
         raise e
     try:
         mfcc = np.mean(
-            librosa.feature.mfcc(y=y, sr=sr, n_mfcc=39).T, axis=0
+            librosa.feature.mfcc(y=y, sr=sr, n_mfcc=30).T, axis=0
         )  # Trích xuất MFCCs
         result = np.hstack((result, mfcc))  # stacking horizontally
         logging.info(f"MFCC extracted successfully: Shape: {mfcc.shape}")
